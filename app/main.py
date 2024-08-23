@@ -1,59 +1,54 @@
+from datetime import datetime
 import os
-import json
 import logging
 import uvicorn
 from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from slowapi.middleware import SlowAPIMiddleware
+from fastapi.middleware.cors import CORSMiddleware
+from app.config import API_CONFIG, load_config, load_main_config
+from app.utils import CacheManager
+from app.services.onlinesim_service import OnlineSimService
 from app.routers import numbers
-from datetime import datetime
-from dotenv import load_dotenv
-
+from app.utils import CacheManager, app_lifecycle
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 load_dotenv()
 
 api_key = os.getenv("ONLINE_SIM_API_KEY")
 
-
 log_filename = f"logs/log_{datetime.now().strftime('%Y-%m-%d')}.txt"
 logging.basicConfig(
     filename=log_filename,
-    level=logging.DEBUG,
+    # level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Load service configs
-def load_config(service_name):
-    config_path = f"config/{service_name}_config.json"
-    try:
-        with open(config_path, 'r') as config_file:
-            return json.load(config_file)
-    except Exception as e:
-        logging.error(f"Failed to load service configuration from {config_path}: {e}")
-        raise
+title=API_CONFIG["title"]
+description=API_CONFIG["description"]
+version=API_CONFIG["version"]
+autor=API_CONFIG["autor"]
+logging.info(f"Main: Name: {title}, Version: {version}, (C)2024 by {autor}, Description: {description}")
 
-# Load main config
-try:
-    with open('config/main_config.json', 'r') as main_config_file:
-        main_config = json.load(main_config_file)
-        logging.info("Main configuration loaded successfully.")
-except Exception as e:
-    logging.error(f"Failed to load main configuration: {e}")
-    raise
-
+# Load configurations
+main_config = load_main_config()
 active_service = main_config.get("active_service", "onlinesim")
 service_config = load_config(active_service)
+
+# Initialize services and cache manager
+online_sim_service = OnlineSimService(service_config)
+cache_manager = CacheManager(online_sim_service)
 
 limiter = Limiter(key_func=get_remote_address)
 
 app = FastAPI(
-    title="SMS API",
-    description="API for fetching and monitoring SMS messages via various services.",
-    version="1.0.0"
+    title=title,
+    description=description,
+    version=version,
+    lifespan=lambda app: app_lifecycle(app, cache_manager)
 )
 
 app.state.limiter = limiter
@@ -69,13 +64,13 @@ app.add_middleware(
 )
 
 # Routes
-numbers.init_router(service_config)
+numbers.init_router(service_config, cache_manager)
 app.include_router(numbers.router)
 
 @app.get("/")
 @limiter.limit("5/minute")
 def read_root(request: Request):
-    logging.info("Root endpoint accessed")
+    logging.info("Main: Root endpoint accessed")
     
     docs_routes = []
     api_routes = []
@@ -103,12 +98,11 @@ def read_root(request: Request):
         "documentation_routes": docs_routes,
     }
 
-
-
 if __name__ == "__main__":
+    logging.info("Main: Loading certificates...")
     cert_path = os.path.join(BASE_DIR, "..", "certs", "selfsigned.crt")
     key_path = os.path.join(BASE_DIR, "..", "certs", "selfsigned.key")
-    
+    logging.info("Main: Starting api service...")
     uvicorn.run(
         app,
         host="0.0.0.0",

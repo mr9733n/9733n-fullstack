@@ -8,7 +8,7 @@ class OnlineSimService(BaseService):
         self.config = config
         self.headers = config['headers']
         self.urls = config['urls']
-        logging.info("OnlineSimService initialized with configuration.")
+        logging.info("Services: OnlineSimService initialized with configuration.")
 
     async def fetch_numbers(self, session, country):
         url = self.urls['fetch_numbers_url'].format(country=country)
@@ -17,7 +17,7 @@ class OnlineSimService(BaseService):
             async with session.get(url, headers=self.headers) as response:
                 response.raise_for_status()
                 data = await response.json()
-                logging.info(f"Successfully fetched numbers for country: {country}")
+                logging.info(f"Services: Successfully fetched numbers for country: {country}")
                 return [
                     {
                         "country": country,
@@ -28,7 +28,7 @@ class OnlineSimService(BaseService):
                     for number_info in data.get("numbers", [])
                 ]
         except aiohttp.ClientError as e:
-            logging.error(f"Error fetching numbers for country: {country} - {e}")
+            logging.error(f"Services: Error fetching numbers for country: {country} - {e}")
             return []
 
     async def fetch_sms(self, session, country, number):
@@ -38,12 +38,12 @@ class OnlineSimService(BaseService):
             async with session.get(url, headers=self.headers) as response:
                 response.raise_for_status()
                 data = await response.json()
-                logging.info(f"Successfully fetched SMS for number: {number} in country: {country}")
+                logging.info(f"Services: Successfully fetched SMS for number: {number} in country: {country}")
                 return data.get("messages", {}).get("data", [])
         except aiohttp.ClientError as e:
-            logging.error(f"Error fetching SMS for number: {number} in country: {country} - {e}")
+            logging.error(f"Services: Error fetching SMS for number: {number} in country: {country} - {e}")
             return []
 
     def get_supported_countries(self):
-        logging.info("Fetching supported countries.")
+        logging.info("Services: Fetching supported countries.")
         return self.config['countries']
