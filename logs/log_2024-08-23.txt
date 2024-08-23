@@ -24,3 +24,7 @@
 2024-08-23 02:16:16,337 - DEBUG - Using proactor: IocpProactor
 2024-08-23 02:16:21,420 - INFO - Root endpoint accessed
 2024-08-23 03:21:16,377 - INFO - Root endpoint accessed
+2024-08-23 03:24:11,237 - INFO - Main configuration loaded successfully.
+2024-08-23 03:24:11,238 - INFO - OnlineSimService initialized with configuration.
+2024-08-23 03:24:11,238 - INFO - Service 'onlinesim' initialized successfully.
+2024-08-23 03:24:11,243 - DEBUG - Using proactor: IocpProactor
