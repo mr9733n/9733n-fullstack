@@ -1,0 +1,26 @@
+2024-08-23 01:30:00,071 - INFO - Main configuration loaded successfully.
+2024-08-23 01:30:00,072 - INFO - OnlineSimService initialized with configuration.
+2024-08-23 01:30:00,072 - INFO - Service 'onlinesim' initialized successfully.
+2024-08-23 01:30:00,126 - DEBUG - Using proactor: IocpProactor
+2024-08-23 01:39:55,687 - INFO - Endpoint /countries accessed
+2024-08-23 01:39:55,687 - INFO - Fetching supported countries.
+2024-08-23 01:39:55,687 - INFO - Supported countries retrieved: ['russia', 'britain', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech', 'moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia', 'usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-08-23 02:03:52,915 - INFO - Main configuration loaded successfully.
+2024-08-23 02:03:52,916 - INFO - OnlineSimService initialized with configuration.
+2024-08-23 02:03:52,916 - INFO - Service 'onlinesim' initialized successfully.
+2024-08-23 02:03:52,920 - DEBUG - Using proactor: IocpProactor
+2024-08-23 02:04:05,207 - INFO - Endpoint /countries accessed
+2024-08-23 02:04:05,207 - INFO - Fetching supported countries.
+2024-08-23 02:04:05,207 - INFO - Supported countries retrieved: ['russia', 'britain', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech', 'moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia', 'usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-08-23 02:06:44,823 - INFO - Main configuration loaded successfully.
+2024-08-23 02:06:44,824 - INFO - OnlineSimService initialized with configuration.
+2024-08-23 02:06:44,824 - INFO - Service 'onlinesim' initialized successfully.
+2024-08-23 02:06:44,828 - DEBUG - Using proactor: IocpProactor
+2024-08-23 02:06:54,970 - INFO - Root endpoint accessed
+2024-08-23 02:09:24,702 - INFO - Root endpoint accessed
+2024-08-23 02:16:16,332 - INFO - Main configuration loaded successfully.
+2024-08-23 02:16:16,333 - INFO - OnlineSimService initialized with configuration.
+2024-08-23 02:16:16,333 - INFO - Service 'onlinesim' initialized successfully.
+2024-08-23 02:16:16,337 - DEBUG - Using proactor: IocpProactor
+2024-08-23 02:16:21,420 - INFO - Root endpoint accessed
+2024-08-23 03:21:16,377 - INFO - Root endpoint accessed

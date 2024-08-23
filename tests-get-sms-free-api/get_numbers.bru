@@ -1,0 +1,22 @@
+meta {
+  name: get_numbers
+  type: https
+  seq: 2
+}
+
+get {
+  url: https://get-sms-free.lab:8000/numbers/{{selected_country}}
+  body: none
+  auth: none
+}
+
+script:post-response {
+      let responseBody = res.getBody();
+      let numbers = typeof responseBody === "string" ? JSON.parse(responseBody) : responseBody;
+  
+      let firstFullNumber = numbers[0].full_number;
+  
+  
+      bru.setEnvVar("first_full_number", firstFullNumber);
+  
+}
