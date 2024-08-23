@@ -1,6 +1,6 @@
-from app.services.base_service import BaseService
+from app.core.sms_provider import SmsProvider
 
-class AnotherService(BaseService):
+class AnotherService(SmsProvider):
     def __init__(self, config):
         self.config = config
         # Логика инициализации для другого сайта

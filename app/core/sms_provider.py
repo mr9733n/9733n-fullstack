@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
 
-class BaseService(ABC):
+class SmsProvider(ABC):
     """
     Абстрактный базовый класс для всех сервисов получения номеров и SMS.
-    Все сервисы должны реализовать этот интерфейс.
+    Все поставщики должны реализовать этот интерфейс.
     """
 
     @abstractmethod

@@ -1,44 +1,9 @@
+# app/helpers/common_helper.py
 import re
 import aiohttp
 import logging
-from datetime import datetime, timedelta
-
-# Словарь для преобразования известных форматов возраста в дни
-AGE_MAP = {
-    "1 hour ago": 1 / 24,  # 1 час = 0.0416 дня
-    "12 hours ago": 0.5,  # Полдня
-    "1 day ago": 1,
-    "2 days ago": 2,
-    "1 week ago": 7,
-    "2 weeks ago": 14,
-    "1 month ago": 30,  # Условно 30 дней в месяце
-    "2 months ago": 60,
-    "1 year ago": 365,
-    "2 years ago": 730
-}
-
-def is_relevant_number(age, max_days=7):
-    """
-    Проверяет, является ли номер "свежим" на основе времени его последнего использования.
-    """
-    days = AGE_MAP.get(age)
-    if days is not None:
-        return days <= max_days
-    else:
-        return False  # Если формат неизвестен, считаем его слишком старым
-
-def sort_numbers(fresh_numbers):
-    """
-    Сортирует номера по их возрасту, начиная с самых свежих.
-    """
-    if not isinstance(fresh_numbers, list):
-        logging.error(f"Unexpected data format: {fresh_numbers}")
-        return []
-
-    def get_age_in_days(age):
-        return AGE_MAP.get(age, float('inf'))  # Если формат неизвестен, ставим его в конец
-
-    return sorted(fresh_numbers, key=lambda x: get_age_in_days(x.get("age", "")))
+from app.helpers.onlinesim_helper import onlinesim_helper_is_relevant_number
+from app.helpers.constants import AGE_MAP
 
 async def fetch_data(session, url, headers):
     """
@@ -63,7 +28,7 @@ def get_fresh_numbers(numbers, max_age_days=7):
     """
     Фильтрует номера, не старше `max_age_days` на основе форматов "1 day ago", "12 hours ago" и т.д.
     """
-    fresh_numbers = [num for num in numbers if is_relevant_number(num["age"])]
+    fresh_numbers = [num for num in numbers if onlinesim_helper_is_relevant_number(num["age"])]
     return fresh_numbers
 
 def validate_countries(countries):

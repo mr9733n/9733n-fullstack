@@ -2,17 +2,14 @@ import logging
 import asyncio
 import ssl
 import aiohttp
-from datetime import datetime, timedelta
-from contextlib import asynccontextmanager
-from fastapi import FastAPI
-from app.services.onlinesim_service import OnlineSimService
-from app.helper import is_relevant_number, sort_numbers
+from datetime import timedelta
+from app.helpers.onlinesim_helper import onlinesim_helper_sort_numbers
 
 class CacheManager:
     def __init__(self, online_sim_service, cache_lifetime=timedelta(hours=1)):
         self.online_sim_service = online_sim_service
         self.countries = self.online_sim_service.get_supported_countries()
-        self.number_cache = {}
+        self.number_cache = {} 
         self.last_cache_update = None
         self.cache_lifetime = cache_lifetime
 
@@ -46,10 +43,9 @@ class CacheManager:
                 logging.debug(f"Utils: Skipping country {country} due to empty response.")
                 return
 
-            # Проверяем, что данные являются списком словарей
             if isinstance(fresh_numbers, list) and all(isinstance(item, dict) for item in fresh_numbers):
-                # Сортируем номера и сохраняем в кеш
-                sorted_numbers = sort_numbers(fresh_numbers)
+
+                sorted_numbers = onlinesim_helper_sort_numbers(fresh_numbers)
                 logging.debug(f"Sorted numbers: {sorted_numbers}")
                 self.number_cache[country] = sorted_numbers
             else:
@@ -63,21 +59,23 @@ class CacheManager:
 
     def get_cached_numbers(self, country):
         cached_numbers = self.number_cache.get(country, [])
-        return sort_numbers(cached_numbers)  # Дополнительно сортируем перед возвратом
+        return onlinesim_helper_sort_numbers(cached_numbers) 
 
     async def preload_numbers(self):
         logging.info("Utils: Starting initial number preloading (1-minute delay).")
-        await asyncio.sleep(6)  # Задержка для предварительной загрузки
+        await asyncio.sleep(6)  # 6 seconds
         async with aiohttp.ClientSession() as session:
             for country in self.countries:
                 await self.fetch_numbers_for_country(session, country)
 
-@asynccontextmanager
-async def app_lifecycle(app: FastAPI, cache_manager: CacheManager):
-    logging.info("Utils: Starting preloading cache...")
-    task = asyncio.create_task(cache_manager.preload_numbers())
-    
-    yield
-
-    task.cancel()
-    logging.info("Utils: Service stopped.")
+    async def fetch_data(session, url, headers):
+        """
+        Выполняет асинхронный запрос и возвращает JSON-ответ.
+        """
+        try:
+            async with session.get(url, headers=headers) as response:
+                response.raise_for_status()
+                return await response.json()
+        except aiohttp.ClientError as e:
+            logging.error(f"Utils: Failed to fetch data from {url}: {e}")
+            return {}

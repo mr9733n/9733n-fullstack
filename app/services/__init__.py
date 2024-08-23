@@ -1,5 +1,5 @@
-from .base_service import BaseService
+from app.core.sms_provider import SmsProvider
 from .onlinesim_service import OnlineSimService
 from .another_service import AnotherService
 
-__all__ = ["BaseService", "OnlineSimService", "AnotherService"]
+__all__ = ["OnlineSimService", "AnotherService"]

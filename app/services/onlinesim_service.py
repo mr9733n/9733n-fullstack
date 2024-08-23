@@ -1,9 +1,9 @@
 import aiohttp
 import logging
-from app.services.base_service import BaseService
+from app.core.sms_provider import SmsProvider
 import json
 
-class OnlineSimService(BaseService):
+class OnlineSimService(SmsProvider):
     def __init__(self, config):
         self.config = config
         self.headers = config['headers']

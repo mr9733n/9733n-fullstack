@@ -3,10 +3,10 @@ import logging
 from fastapi import APIRouter, HTTPException, Query, Request
 from slowapi import Limiter
 from slowapi.util import get_remote_address
-from app.helper import is_relevant_number, sort_numbers
+from app.helpers.onlinesim_helper import onlinesim_helper_is_relevant_number, onlinesim_helper_sort_numbers
 from app.services.onlinesim_service import OnlineSimService
 from app.services.another_service import AnotherService
-from app.utils import CacheManager
+from app.utils.cache_manager import CacheManager
 
 router = APIRouter(
     prefix="/numbers",
@@ -46,11 +46,11 @@ async def get_fresh_numbers(limit: int = Query(3, ge=1, le=100), max_age: int = 
     fresh_numbers = {}
     for country, numbers in cache_manager.number_cache.items():
         # Фильтруем номера по возрасту
-        filtered_numbers = [num for num in numbers if is_relevant_number(num["age"], max_age)]
+        filtered_numbers = [num for num in numbers if onlinesim_helper_is_relevant_number(num["age"], max_age)]
         if filtered_numbers:
             # Сортируем от самых свежих к старым
             logging.debug(f"Before sorting: {filtered_numbers}")
-            sorted_numbers = sort_numbers(filtered_numbers)  # Используем отфильтрованные данные
+            sorted_numbers = onlinesim_helper_sort_numbers(filtered_numbers)  # Используем отфильтрованные данные
             logging.debug(f"After sorting: {sorted_numbers}")
 
             # Ограничиваем количество возвращаемых номеров

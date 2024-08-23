@@ -1,12 +1,11 @@
-import os
 import json
 import logging
-from app.helper import validate_countries
+from app.helpers.common_helper import validate_countries
 
 API_CONFIG = {
-    "title": "SMS API",
+    "title": "Online SMS API",
     "description": "API for fetching and monitoring SMS messages via various services.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "autor": "9733n"
 }
 

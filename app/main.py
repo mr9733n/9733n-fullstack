@@ -1,3 +1,5 @@
+# app/main.py
+from app.utils.app_lifecycle import app_lifecycle
 from datetime import datetime
 import os
 import logging
@@ -9,17 +11,15 @@ from slowapi.util import get_remote_address
 from slowapi.middleware import SlowAPIMiddleware
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import API_CONFIG, load_config, load_main_config
-from app.utils import CacheManager
 from app.services.onlinesim_service import OnlineSimService
 from app.routers import numbers
-from app.utils import CacheManager, app_lifecycle
+from app.utils.cache_manager import CacheManager
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv()
-
 api_key = os.getenv("ONLINE_SIM_API_KEY")
-
 log_filename = f"logs/log_{datetime.now().strftime('%Y-%m-%d')}.txt"
+
 logging.basicConfig(
     filename=log_filename,
     # level=logging.DEBUG,
@@ -31,6 +31,7 @@ title=API_CONFIG["title"]
 description=API_CONFIG["description"]
 version=API_CONFIG["version"]
 autor=API_CONFIG["autor"]
+
 logging.info(f"Main: Name: {title}, Version: {version}, (C)2024 by {autor}, Description: {description}")
 
 # Load configurations
