@@ -2,3 +2,4 @@
 *.pyc
 *.txt
 .idea/*
+app/logs/app_log.txt.2024-12-17
