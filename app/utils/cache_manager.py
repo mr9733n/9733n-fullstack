@@ -2,9 +2,15 @@
 import logging
 import asyncio
 import ssl
+from linecache import cache
+
 import aiohttp
 from datetime import timedelta
-from app.helpers.onlinesim_helper import onlinesim_helper_sort_numbers
+
+from app.core.sms_provider_factory import SmsProviderFactory
+from app.helpers.onlinesim_helper import OnlinesimHelper
+
+onlinesim_helper = OnlinesimHelper()
 from app.models import service_config
 
 class CacheManager:
@@ -52,7 +58,7 @@ class CacheManager:
                 return
 
             if isinstance(fresh_numbers, list) and all(isinstance(item, dict) for item in fresh_numbers):
-                sorted_numbers = onlinesim_helper_sort_numbers(fresh_numbers)
+                sorted_numbers = onlinesim_helper.sort_numbers(fresh_numbers)
                 logging.debug(f"Sorted numbers: {sorted_numbers}")
                 self.number_cache[country] = sorted_numbers
                 logging.info(f"Utils: Cached numbers for {country}: {sorted_numbers}")
@@ -67,15 +73,16 @@ class CacheManager:
 
     def get_cached_numbers(self, country):
         cached_numbers = self.number_cache.get(country, [])
-        return onlinesim_helper_sort_numbers(cached_numbers) 
+        return onlinesim_helper.sort_numbers(cached_numbers)
 
-    async def preload_numbers(self):
-        logging.info("Utils: Starting initial number preloading (1-minute delay).")
-        await asyncio.sleep(6)  # 1 minute delay before starting preload
-        async with aiohttp.ClientSession() as session:
-            for country in self.countries:
-                await self.fetch_numbers_for_country(session, country)
-
+    async def preload_numbers(factory: SmsProviderFactory):
+        for provider_name in factory.providers:
+            provider = factory.get_provider(provider_name)
+            for country in provider.get_supported_countries():
+                logging.info(f"Fetching numbers for {country} from {provider_name}")
+                numbers = provider.get_numbers(country)
+                # Добавь в кэш
+                cache.add_numbers(provider_name, country, numbers)
 
     async def fetch_data(session, url, headers):
         """

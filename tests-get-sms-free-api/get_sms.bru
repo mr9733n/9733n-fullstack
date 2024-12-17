@@ -1,11 +1,11 @@
 meta {
   name: get_sms
-  type: https
+  type: http
   seq: 3
 }
 
 get {
-  url: https://get-sms-free.lab:8000/numbers/{{selected_country}}/{{first_full_number}}/sms
+  url: https://get-sms-free.lab:6066/numbers/{{selected_country}}/{{first_full_number}}/sms
   body: none
   auth: none
 }

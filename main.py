@@ -16,7 +16,7 @@ from app.config import load_all_service_configs, load_main_config, initialize_pr
 from app.utils.cache_manager import CacheManager
 from app.helpers.common_helper import CommonHelper
 from app.helpers.onlinesim_helper import OnlinesimHelper
-
+from app.routes.numbers import init_router
 from app.config import load_all_service_configs, load_main_config
 
 onlinesim_helper = OnlinesimHelper()

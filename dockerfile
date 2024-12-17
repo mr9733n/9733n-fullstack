@@ -8,9 +8,16 @@ WORKDIR /app
 COPY --chown=root:root app/ /app/app/
 COPY --chown=root:root config/ /app/config/
 COPY --chown=root:root logs/ /app/logs/
-COPY --chown=root:myuser certs/ /app/certs/
+COPY --chown=myuser:myuser certs/ /app/certs/
+COPY --chown=root:root requirements.txt /app/app/requirements.txt
 
-RUN chmod 700 /app/certs && chmod 600 /app/certs/*
+RUN chmod 700 /app/certs && \
+    chmod 644 /app/certs/selfsigned.crt && \
+    chmod 600 /app/certs/selfsigned.key && \
+    chown myuser:myuser /app/certs/selfsigned.key /app/certs/selfsigned.crt
+
+RUN chown -R myuser:myuser /app/logs
+RUN chmod 755 /app/logs
 
 RUN pip install --no-cache-dir -r /app/app/requirements.txt
 

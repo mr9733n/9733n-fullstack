@@ -1,35 +1,47 @@
-# app/core/sms_provider.py
 from abc import ABC, abstractmethod
 import aiohttp
+import logging
+from app.models.service_config import ServiceConfig
+
 
 class SmsProvider(ABC):
     """Абстрактный базовый класс для всех сервисов получения номеров и SMS."""
 
-    @abstractmethod
-    async def fetch_numbers(self):
-        """Метод для получения списка номеров."""
+    def __init__(self, config: ServiceConfig):
+        """Инициализация конфигурации сервиса."""
+        self.config = config
+        self.base_url = config.urls.get("base_url", "")
+        self.api_key = config.headers.get("Authorization", "")
+        self.headers = config.headers
+        self.fetch_numbers_url = config.urls.get("fetch_numbers_url", "")
+        self.fetch_sms_url = config.urls.get("fetch_sms_url", "")
+        logging.info(f"SmsProvider initialized with base_url: {self.base_url}")
+
+    async def fetch_numbers(self, country: str):
+        """Метод для получения номеров."""
         pass
 
-    @abstractmethod
-    async def fetch_sms(self, number):
-        """Метод для получения последних SMS для заданного номера."""
+    async def fetch_sms(self, country: str, number: str):
+        """Метод для получения SMS."""
         pass
 
-    @abstractmethod
-    def get_supported_countries(self):
-        """Метод для получения списка поддерживаемых стран."""
-        pass
+class ConfigurableSmsProvider(SmsProvider):
+    def __init__(self, config: dict):
+        self.fetch_numbers_url = config["urls"].get("fetch_numbers_url", "")
+        self.fetch_sms_url = config["urls"].get("fetch_sms_url", "")
+        self.headers = config.get("headers", {})
 
-class ExampleSmsProvider(SmsProvider):
-    async def fetch_numbers(self):
-        async with aiohttp.ClientSession() as session:
-            async with session.get("https://api.example.com/numbers") as response:
+    async def fetch_numbers(self, country: str):
+        url = self.fetch_numbers_url.format(country=country)
+        async with aiohttp.ClientSession(headers=self.headers) as session:
+            async with session.get(url) as response:
                 return await response.json()
 
-    async def fetch_sms(self, number):
-        async with aiohttp.ClientSession() as session:
-            async with session.get(f"https://api.example.com/sms/{number}") as response:
+    async def fetch_sms(self, country: str, number: str):
+        url = self.fetch_sms_url.format(country=country, number=number)
+        async with aiohttp.ClientSession(headers=self.headers) as session:
+            async with session.get(url) as response:
                 return await response.json()
 
     def get_supported_countries(self):
-        return ["US", "UK"]
+        return self.config.countries
