@@ -1,6 +1,8 @@
 # app/helpers/onlinesim_helper.py
 import logging
 from app.helpers.constants import AGE_MAP
+from app.models.service_config import ServiceConfig
+
 
 def onlinesim_helper_is_relevant_number(age, max_days=7):
     """

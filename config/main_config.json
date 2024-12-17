@@ -1,3 +1,10 @@
 {
-    "active_service": "onlinesim"
-}
+    "title": "Online SMS API",
+    "description": "API for fetching and monitoring SMS messages via various services.",
+    "version": "0.0.1.3",
+    "author": "9733n",
+    "services": ["onlinesim", "textr", "another"],
+    "cache_for_fresh_numbers": ["onlinesim"],
+    "exclude_from_cache": ["textr", "another"]
+  }
+  

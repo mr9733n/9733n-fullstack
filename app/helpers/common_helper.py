@@ -3,19 +3,32 @@ import re
 import aiohttp
 import logging
 from app.helpers.onlinesim_helper import onlinesim_helper_is_relevant_number
+from app.models.service_config import ServiceConfig
 from app.helpers.constants import AGE_MAP
 
-async def fetch_data(session, url, headers):
+def get_age_days_by_id(age_id):
     """
-    Выполняет асинхронный запрос и возвращает JSON-ответ.
+    Возвращает количество дней на основе идентификатора age_id.
     """
-    try:
-        async with session.get(url, headers=headers) as response:
-            response.raise_for_status()
-            return await response.json()
-    except aiohttp.ClientError as e:
-        logging.error(f"Helper: Failed to fetch data from {url}: {e}")
-        return {}
+    return AGE_MAP.get(age_id, {}).get("days", None)
+
+def get_age_description_by_id(age_id):
+    """
+    Возвращает текстовое описание возраста на основе идентификатора age_id.
+    """
+    return AGE_MAP.get(age_id, {}).get("description", "Unknown age")
+
+def get_age_id_by_description(description):
+    """
+    Возвращает идентификатор возраста на основе текстового описания.
+    """
+    for age_id, age_data in AGE_MAP.items():
+        if age_data.get("description") == description:
+            return age_id
+    return None
+
+def get_supported_countries(self):
+    return self.config.countries
 
 def extract_code_from_text(text):
     """
@@ -50,5 +63,18 @@ def validate_countries(countries):
 
     logging.debug(f"Helper: Validated countries: {countries}")
     return countries
+
+async def fetch_data(session, url, headers):
+    """
+    Выполняет асинхронный запрос и возвращает JSON-ответ.
+    """
+    try:
+        async with session.get(url, headers=headers) as response:
+            response.raise_for_status()
+            return await response.даjson()
+    except aiohttp.ClientError as e:
+        logging.error(f"Helper: Failed to fetch data from {url}: {e}")
+        return {}
+
 
 

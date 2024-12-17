@@ -1,3 +1,4 @@
+# app/core/sms_provider_factory.py
 from sms_provider import SmsProvider
 
 class SmsProviderFactory:
@@ -5,17 +6,11 @@ class SmsProviderFactory:
         self.providers = {}
 
     def register_provider(self, provider_name: str, provider_instance: SmsProvider):
-        """
-        Регистрирует нового провайдера.
-        :param provider_name: Имя провайдера
-        :param provider_instance: Экземпляр провайдера, реализующий SmsProvider
-        """
+        """Регистрирует нового провайдера."""
         self.providers[provider_name] = provider_instance
 
     def get_provider(self, provider_name: str) -> SmsProvider:
-        """
-        Возвращает провайдера по его имени.
-        :param provider_name: Имя провайдера
-        :return: Экземпляр провайдера или None, если не найден
-        """
-        return self.providers.get(provider_name)
+        """Возвращает провайдера по его имени."""
+        if provider_name not in self.providers:
+            raise ValueError(f"Provider '{provider_name}' is not registered.")
+        return self.providers[provider_name]
