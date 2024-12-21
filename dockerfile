@@ -5,10 +5,12 @@ RUN apk add --no-cache bash && \
 
 WORKDIR /app
 
-COPY --chown=root:root app/ /app/app/
-COPY --chown=root:root config/ /app/config/
-COPY --chown=root:root logs/ /app/logs/
-COPY --chown=myuser:myuser certs/ /app/certs/
+COPY --chown=root:root app/ /app/
+COPY --chown=root:root app/config/ /app/config/
+COPY --chown=root:root app/logs/ /app/logs/
+COPY --chown=root:root app/static/ /app/static/
+COPY --chown=root:root app/templates/ /app/templates/
+COPY --chown=myuser:myuser app/certs/ /app/certs/
 COPY --chown=root:root requirements.txt /app/app/requirements.txt
 
 RUN chmod 700 /app/certs && \
@@ -19,7 +21,7 @@ RUN chmod 700 /app/certs && \
 RUN chown -R myuser:myuser /app/logs
 RUN chmod 755 /app/logs
 
-RUN pip install --no-cache-dir -r /app/app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
 USER myuser
 

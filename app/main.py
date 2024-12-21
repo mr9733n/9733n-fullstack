@@ -8,6 +8,8 @@ from contextlib import asynccontextmanager
 from app.config import main_config, onlinesim_config
 from app.routes.onlinesim_routes import router as onlinesim_router, limiter
 from app.services.onlinesim_service import OnlinesimService
+from app.routes.rna_routes import router as rna_router
+from fastapi.staticfiles import StaticFiles
 from app.utils.logger import logger
 logging = logger
 cache = {}
@@ -18,16 +20,20 @@ with open("app/config/onlinesim_config.json", "r", encoding="utf-8") as file:
     onlinesim_config = json.load(file)
 api_key = os.getenv("ONLINE_SIM_API_KEY")
 
-title = main_config.get("app_name", "OnlineSim API"),
+title = main_config.get("app_name", "9733n API"),
 version = main_config.get("version", "0.1.0.0"),
 description = main_config.get("description", "Default API description"),
 author = main_config.get("author", "9733n")
 
+onlinesim_service = OnlinesimService(onlinesim_config)
+
+
 async def periodic_cache_update():
     while True:
-        await onlinesim_service.update_cache()
-        logging.info("Background: Cache updated.")
+        # TOTO
+        logging.info("fdgkfldjgd.")
         await asyncio.sleep(300)  # Обновлять каждые 5 минут
+
 
 # В lifespan добавьте фоновую задачу
 @asynccontextmanager
@@ -49,9 +55,9 @@ if api_key:
 else:
     raise ValueError("ONLINE_SIM_API_KEY environment variable is not set.")
 
-onlinesim_service = OnlinesimService(onlinesim_config)
-
+# Подключение маршрутов
 app.include_router(onlinesim_router, prefix="/numbers", tags=["OnlineSim Numbers"])
+app.include_router(rna_router, prefix="/rna", tags=["RNA Project"])
 
 logger.info("Application initialized successfully.")
 

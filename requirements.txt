@@ -4,4 +4,10 @@ aiohttp
 python-dotenv
 slowapi
 pydantic
+numpy
 beautifulsoup4
+requests
+unidecode
+feedparser
+jinja2
+python-multipart
