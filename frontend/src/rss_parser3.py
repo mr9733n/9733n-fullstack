@@ -40,10 +40,24 @@ def remove_adv_words(article_text):
     
     return cleaned_text
 
-# Храните последние данные RSS для сравнения
-last_feeds = {}
+def fetch_article_content(article_url):
+    try:
+        response = requests.get(article_url, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, 'html.parser')
 
-def rss_parser(version):
-    return render_template('rss_parser.html', version)
+        # Extract the main article text
+        article_div = soup.find('div', class_='main--single--article--content--text')
+        article_text = article_div.get_text(separator='\n', strip=True) if article_div else "Article content not found."
 
+        # Extract image URLs
+        images = soup.find_all('img', src=True, id=True)
+        image_urls = [img['src'] for img in images]
+
+        return {
+            "article_text": article_text,
+            "images": image_urls
+        }
+    except Exception as e:
+        return {"error": f"Failed to fetch article: {str(e)}"}
 

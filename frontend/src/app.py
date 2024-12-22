@@ -13,7 +13,7 @@ from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
-from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL
+from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL, fetch_article_content
 
 __version__ = '0.1.4.1'
 
@@ -206,7 +206,7 @@ def get_rss_url(url=None):
 def get_feeds():
     last_feeds = {}
     rss_url = get_rss_url()
-    print("RSS URL:", rss_url) 
+    print("RSS URL:", rss_url)
     combined_feed = []
     feeds = get_rss_feed(rss_url)
     combined_feed.extend(feeds)
@@ -221,25 +221,19 @@ def get_feeds():
 
     return jsonify(combined_feed)
 
-@app.route('/get_article_text', methods=['GET'])
-def get_article_text():
+@app.route('/get_article_details', methods=['GET'])
+def get_article_details():
     article_url = request.args.get('url')
-    try:
-        response = requests.get(article_url)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            article_element = soup.find('article', class_='text')
-            if article_element:
-                article_text = article_element.get_text()
-                cleaned_article_text = remove_adv_words(article_text)
-                return jsonify({"article_text": cleaned_article_text})
-            else:
-                return jsonify({"error": "Article element not found"}), 404
-        else:
-            return jsonify({"error": f"Failed to fetch article. Status code: {response.status_code}"}), 404
-    except Exception as e:
-        app.logger.error(f"Error fetching article: {str(e)}")
-        return jsonify({"error": "Internal server error"}), 500
+    if not article_url:
+        return jsonify({"error": "No URL provided."}), 400
+
+    result = fetch_article_content(article_url)
+    if "error" in result:
+        return jsonify({"error": result["error"]}), 500
+
+    article_details = fetch_article_content(article_url)
+    return jsonify(article_details)
+
 
 
 if __name__ == '__main__':
