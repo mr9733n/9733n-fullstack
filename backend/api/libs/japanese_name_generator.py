@@ -1,9 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import random
+
+from requests.adapters import HTTPAdapter
 from unidecode import unidecode
 import os
 import sys
+
+from urllib3 import Retry
+
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 if project_root not in sys.path:
     sys.path.append(project_root)
@@ -52,8 +57,12 @@ class JapaneseNameGenerator:
         return f"{base_url}?{'&'.join([f'{key}={value}' for key, value in params.items()])}"
 
     def send_request(self, url):
+        session = requests.Session()
+        retries = Retry(total=3, backoff_factor=0.3, status_forcelist=[500, 502, 503, 504])
+        session.mount("https://", HTTPAdapter(max_retries=retries))
+
         try:
-            response = requests.get(url)
+            response = session.get(url, timeout=10)
             response.raise_for_status()
             self.logger.info("Response 200 OK")
             return response

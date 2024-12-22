@@ -2,16 +2,23 @@ import os
 import secrets
 import string
 import time
+from pathlib import Path
+
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, request
 import requests
+import asyncio
 from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
 from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL
 
-__version__ = '1.4.1'
+__version__ = '0.1.4.1'
+
+env_path = Path(__file__).resolve().parent / ".env"
+load_dotenv(env_path)
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default_secret_key') # Use an environment variable or fallback
@@ -29,11 +36,7 @@ routes_info = {
     # '  '
     # Add new routes here...
 }
-#Service
-def generate_japanese_names(num_names, save_to_file, sex):
-    name_generator = JapaneseNameGenerator(num_names=num_names, save_to_file=save_to_file, params={"sex": sex})
-    random_names = name_generator.generate_names()
-    return random_names
+
 
 def get_routes():
     routes = []
@@ -62,15 +65,9 @@ def about():
 @app.route('/', methods=['GET', 'POST'])
 def index():
     """ Home page showing different functionalities """
-    if request.method == 'POST':
-        num_names = int(request.form.get('num_names', 1))
-        save_to_file = bool(request.form.get('save_to_file', False))
-        sex = request.form.get('sex', 'male')
-        
-        random_names = generate_japanese_names(num_names, save_to_file, sex)
-        return render_template('index.html', names=random_names, version=__version__)
-    else:
-        return render_template('index.html', names=[], version=__version__)
+
+    return render_template('index.html', version=__version__)
+
 
 @app.route('/random_heads_tails', methods=['GET', 'POST'])
 def random_heads_tails():
@@ -93,18 +90,27 @@ def random_top_analyze():
                                default_simulation_runs=config['simulation_runs'], version=__version__)
 
 @app.route('/random_japanese_names', methods=['GET', 'POST'])
-def random_japanese_names():
+async def random_japanese_names():
     """ Random Japanese Name Generator """
     if request.method == 'POST':
         num_names = int(request.form.get('num_names', 1))
         sex = request.form.get('sex', 'male')
-        save_to_file = bool(request.form.get('save_to_file', False))
-        name_generator = JapaneseNameGenerator(num_names=num_names, save_to_file=save_to_file, params={"sex": sex})
-        names = name_generator.generate_names()
+        firstname_rarity = request.form.get('firstname_rarity', 'very_rare')
+        lastname_rarity = request.form.get('lastname_rarity', 'very_rare')
+
+        # Используем асинхронный класс для генерации имен
+        generator = JapaneseNameGenerator()
+        names = await generator.generate_names(
+            num_names=num_names,
+            sex=sex,
+            firstname_rarity=firstname_rarity,
+            lastname_rarity=lastname_rarity
+        )
+
         return render_template('random_japanese_names.html', names=names, version=__version__)
     else:
-        return render_template('random_japanese_names.html', version=__version__)
-    
+        return render_template('random_japanese_names.html', names=[], version=__version__)
+
 @app.route('/generate-password', methods=['GET', 'POST'])
 def generate_password():
     """ Random Password Generator """
@@ -235,6 +241,6 @@ def get_article_text():
         app.logger.error(f"Error fetching article: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
 
-#
+
 if __name__ == '__main__':
     app.run(debug=True)

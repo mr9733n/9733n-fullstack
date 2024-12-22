@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japanese Name Generator</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
 </head>
 <body>
     <div class="menu">
@@ -21,16 +21,32 @@
     </div>
     <div class="container">
             <h1>Japanese Name Generator</h1>
-                <form id="generator-form" method="post">
+                <form id="generator-form" method="post" action="/random_japanese_names">
                 <div class="label-input">
                     <label for="num_names">Number of Names:</label>
                     <input type="number" id="num_names" name="num_names" required value="1" min="1" max="25" style="width: 30px;">
                 </div>
                 <div class="label-input">
-                    <label for="sex">Gender:</label>
-                    <select id="sex" name="sex">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
+                        <label for="sex">Gender:</label>
+                        <select id="sex" name="sex">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                </div>
+                <div class="label-input">
+                    <label for="firstname_rarity">First Name Rarity:</label>
+                    <select id="firstname_rarity" name="firstname_rarity">
+                        <option value="very_rare">Very Rare</option>
+                        <option value="rare">Rare</option>
+                        <option value="common">Common</option>
+                    </select>
+                </div>
+                <div class="label-input">
+                    <label for="lastname_rarity">Last Name Rarity:</label>
+                    <select id="lastname_rarity" name="lastname_rarity">
+                        <option value="very_rare">Very Rare</option>
+                        <option value="rare">Rare</option>
+                        <option value="common">Common</option>
                     </select>
                 </div>
                 <br>
@@ -40,15 +56,17 @@
                     <input type="submit" value="Generate Names">
                 </div>
             </form>
-        <div>
-            {% for name in names %}
+            <div>
                 <h2>Results:</h2>
-                <div class="results-container">
-                    <span class="result" data-result="{{ name }}">{{ name }}</span>
-                    <button class="copy-button initial">Copy</button> 
+                <div id="results-container" class="results-container">
+                    {% for name in names %}
+                        <div class="result">
+                            <span data-result="{{ name }}">{{ name }}</span>
+                            <button class="copy-button initial">Copy</button>
+                        </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
-        </div>
+            </div>
     <script src="{{ url_for('static', filename='script_copy.js') }}"></script>
     </div>
 </body>

@@ -5,11 +5,14 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    dns:
+      - 1.1.1.1
     ports:
       - "${BACKEND_PORT:-8000}:8000"
     volumes:
       - ./backend:/backend
     environment:
+      - BACKEND_URL=http://backend:6066
       - HOSTNAME=${HOSTNAME:-9733n.lab}
       - PYTHONPATH=/backend
     restart: always
@@ -25,4 +28,5 @@ services:
     environment:
       - PYTHONPATH=/frontend/src
       - FLASK_ENV=production
+    command: gunicorn -k uvicorn.workers.UvicornWorker -w 4 -b 0.0.0.0:5000 wsgi:asgi_app
     restart: always
