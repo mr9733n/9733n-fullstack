@@ -1,0 +1,1951 @@
+2024-12-21 00:00:53,959 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:00:54,322 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:00:54,323 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:00:54,326 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:00:54,326 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:00:54,326 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:00:54,326 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:00:55,089 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:00:55,451 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:00:55,451 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:00:55,455 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:00:55,501 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:00:55,526 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:00:55,526 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:00:55,528 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:00:55,529 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:03:11,716 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:03:12,072 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:03:12,073 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:03:12,076 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:03:12,076 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:03:12,076 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:03:12,076 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:03:12,876 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:03:13,270 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:03:13,270 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:03:13,274 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:03:13,320 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:03:13,344 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:03:13,344 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:03:13,347 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:03:13,347 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:03:26,762 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:03:27,525 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:03:28,565 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:03:28,832 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:03:28,929 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:03:28,998 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:03:29,503 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:03:29,766 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:03:30,373 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:03:30,898 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:03:31,287 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:03:31,887 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:03:32,367 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:03:32,978 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:03:33,450 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:03:34,471 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:03:36,135 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:03:36,251 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:03:36,908 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:03:38,687 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:03:39,602 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:03:42,991 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:03:43,378 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:03:44,863 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:03:45,183 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:03:45,184 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:03:45,184 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:03:57,131 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:03:57,659 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:03:57,926 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:03:58,410 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:03:58,551 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:03:58,945 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:03:59,341 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:03:59,423 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:03:59,571 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:03:59,727 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:03:59,728 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:03:59,820 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:03:59,914 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:07:02,148 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:07:02,541 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:07:02,541 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:07:02,544 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:07:02,544 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:07:02,544 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:07:02,545 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:07:03,336 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:07:03,712 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:07:03,712 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:07:03,715 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:07:03,762 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:07:03,786 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:07:03,786 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:07:03,789 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:07:03,789 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:07:07,931 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:07:08,528 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:07:08,582 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:07:09,246 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:07:09,518 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:07:09,894 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:07:09,941 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:07:10,506 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:07:11,277 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:07:11,319 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:07:11,626 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:07:11,643 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:07:12,336 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:07:13,295 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:07:15,523 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:07:15,721 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:07:16,106 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:07:17,295 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:07:17,852 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:07:18,318 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:07:25,770 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:07:26,987 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:07:27,005 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:07:27,141 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:07:28,183 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:07:28,183 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:07:28,183 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:07:39,719 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:07:40,800 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:07:41,057 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:07:41,179 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 00:07:41,505 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:07:41,893 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:07:42,217 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:07:42,509 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:07:43,211 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for saudi-arabia.
+2024-12-21 00:07:43,509 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:07:43,697 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:07:43,902 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:07:44,302 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:07:44,476 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:07:44,516 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:07:44,593 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:07:45,112 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:07:46,690 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:07:47,184 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:07:47,595 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:07:48,674 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:07:48,955 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:07:48,973 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for north-macedonia.
+2024-12-21 00:07:50,001 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hong-kong.
+2024-12-21 00:07:50,457 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:07:50,457 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:07:50,458 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:08:02,949 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 00:08:03,016 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 00:08:03,297 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 00:08:03,585 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 00:08:03,598 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ecuador.
+2024-12-21 00:08:03,831 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 00:08:04,269 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 00:08:05,017 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for new-zealand.
+2024-12-21 00:08:05,110 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 00:08:05,515 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 00:08:05,688 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for panama.
+2024-12-21 00:08:07,061 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for australia.
+2024-12-21 00:08:07,114 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 00:08:09,053 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 00:08:09,054 - OnlineSimAPI - INFO - Cache updated for batch: ['usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-12-21 00:12:03,808 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:13:52,263 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:13:52,639 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:13:52,640 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:13:52,643 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:13:52,643 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:13:52,643 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:13:52,643 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:13:53,431 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:13:53,814 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:13:53,814 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:13:53,817 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:13:53,862 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:13:53,888 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:13:53,888 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:13:53,891 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:13:53,891 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:14:21,594 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:14:21,595 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:14:21,605 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:14:21,859 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:14:22,237 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:14:22,319 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:14:22,325 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:14:22,843 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:14:23,123 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:14:23,370 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:14:24,413 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:14:24,703 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:14:24,800 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:14:25,349 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:14:25,828 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:14:28,606 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:14:28,868 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:14:29,090 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:14:29,342 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:14:31,426 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:14:37,025 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:14:37,995 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:14:38,713 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:14:39,212 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:14:39,382 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:14:39,382 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:14:39,382 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:14:52,068 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:14:52,405 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:14:52,945 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:14:53,089 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:14:53,174 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:14:53,380 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:14:53,425 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:14:53,640 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:14:53,719 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:14:53,880 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:14:54,271 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:14:54,299 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for saudi-arabia.
+2024-12-21 00:14:54,301 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 00:14:54,369 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:14:54,819 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:14:54,871 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:14:55,116 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for north-macedonia.
+2024-12-21 00:14:55,677 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:14:55,843 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:14:55,876 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:14:57,740 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:14:59,316 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:14:59,530 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:14:59,654 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hong-kong.
+2024-12-21 00:15:00,287 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:15:00,287 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:15:00,287 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:15:11,367 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 00:15:12,002 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 00:15:12,049 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 00:15:12,104 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for panama.
+2024-12-21 00:15:12,767 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 00:15:12,840 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for australia.
+2024-12-21 00:15:13,382 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ecuador.
+2024-12-21 00:15:13,728 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 00:15:13,738 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 00:15:13,820 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 00:15:14,112 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for new-zealand.
+2024-12-21 00:15:14,162 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 00:15:14,296 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 00:15:14,350 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 00:15:14,350 - OnlineSimAPI - INFO - Cache updated for batch: ['usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-12-21 00:17:05,337 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:17:05,697 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:17:05,698 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:17:05,701 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:17:05,702 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:17:05,702 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:17:05,702 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:17:06,451 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:17:06,816 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:17:06,817 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:17:06,820 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:17:06,862 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:17:06,886 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:17:06,886 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:17:06,888 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:17:06,889 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:17:09,167 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:17:13,095 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:17:13,095 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:17:13,096 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:17:16,354 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:17:18,052 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:17:18,052 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:17:18,052 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:18:07,994 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:18:12,824 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:18:12,824 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:18:12,824 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:18:59,033 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:18:59,179 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:18:59,236 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:18:59,280 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:18:59,466 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:18:59,989 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:19:00,648 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:19:00,774 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:19:02,231 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:19:02,776 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:19:03,376 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:19:04,195 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:19:04,394 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:19:04,645 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:19:05,872 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:19:06,016 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:19:07,076 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:19:08,144 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:19:08,335 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:19:10,299 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:19:14,567 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:19:14,916 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:19:14,944 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:19:15,200 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:19:17,258 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:19:17,258 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:19:17,258 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:19:28,111 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:19:28,277 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:19:28,325 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 00:19:29,083 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:19:29,206 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:19:29,244 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:19:29,324 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:19:29,457 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:19:29,610 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:19:29,688 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:19:29,787 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hong-kong.
+2024-12-21 00:19:30,079 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for saudi-arabia.
+2024-12-21 00:19:30,609 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:19:31,129 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:19:31,345 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for north-macedonia.
+2024-12-21 00:19:31,664 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:19:31,747 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:19:31,747 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:19:32,431 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:19:32,556 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:19:36,216 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:19:36,216 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:19:36,813 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:19:37,469 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:19:37,504 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:19:37,504 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:19:37,504 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:19:48,819 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 00:19:49,037 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 00:19:49,102 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 00:19:49,517 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 00:19:50,047 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 00:19:50,300 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 00:19:50,402 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for new-zealand.
+2024-12-21 00:19:50,638 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 00:19:50,656 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 00:19:51,014 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ecuador.
+2024-12-21 00:19:51,084 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for australia.
+2024-12-21 00:19:51,220 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 00:19:51,288 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 00:19:51,373 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for panama.
+2024-12-21 00:19:51,374 - OnlineSimAPI - INFO - Cache updated for batch: ['usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-12-21 00:22:06,885 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:31:36,227 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:31:36,590 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:31:36,591 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:31:36,594 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:31:36,638 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:31:36,663 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:31:36,663 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:31:36,666 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:31:36,666 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:32:34,932 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:32:35,295 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:32:35,296 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:32:35,298 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:32:35,299 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:32:35,299 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:32:35,299 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:32:36,066 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:32:36,416 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:32:36,417 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:32:36,420 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:32:36,460 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:32:36,482 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:32:36,483 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:32:36,485 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:32:36,485 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:32:49,690 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:32:51,479 - OnlineSimAPI - INFO - Fetched 500 fresh numbers for russia.
+2024-12-21 00:32:51,479 - OnlineSimAPI - INFO - Cache updated for country: russia
+2024-12-21 00:37:36,500 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:38:05,979 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:38:06,354 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:38:06,357 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:38:06,366 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:38:06,366 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:38:06,367 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:38:06,367 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:38:07,136 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:38:07,496 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:38:07,496 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:38:07,499 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:38:07,544 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:38:07,568 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:38:07,568 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:38:07,571 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:38:07,571 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:38:12,871 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:38:13,817 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:38:14,769 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:38:15,297 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:38:15,370 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:38:15,393 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:38:15,464 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:38:15,661 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:38:16,381 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:38:16,563 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:38:16,671 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:38:16,918 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:38:17,182 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:38:18,142 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:38:18,174 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:38:19,568 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:38:20,019 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:38:20,775 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:38:21,444 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:38:21,679 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:38:27,114 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:38:27,233 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:38:27,265 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:38:27,625 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:38:27,793 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:38:29,032 - OnlineSimAPI - INFO - Fetched 4 fresh numbers for russia.
+2024-12-21 00:38:29,032 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:38:29,032 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:38:29,700 - OnlineSimAPI - INFO - Fetched 500 fresh numbers for russia.
+2024-12-21 00:38:29,700 - OnlineSimAPI - INFO - Cache updated for country: russia
+2024-12-21 00:38:39,834 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:38:39,966 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:38:40,671 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 00:38:40,673 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:38:40,841 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:38:41,006 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:38:41,130 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:38:41,141 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:38:41,260 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:38:41,921 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:38:42,105 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:38:42,226 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:38:42,596 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:38:42,987 - OnlineSimAPI - INFO - Fetched 4 fresh numbers for north-macedonia.
+2024-12-21 00:38:43,298 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:38:43,552 - OnlineSimAPI - INFO - Fetched 4 fresh numbers for hong-kong.
+2024-12-21 00:38:43,625 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:38:43,711 - OnlineSimAPI - INFO - Fetched 4 fresh numbers for saudi-arabia.
+2024-12-21 00:38:43,714 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:38:44,521 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:38:47,317 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:38:47,369 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:38:47,393 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:38:47,631 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:38:47,849 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:38:47,849 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:38:47,849 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:38:58,543 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 00:38:58,641 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 00:38:58,911 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 00:38:58,985 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 00:38:59,163 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 00:38:59,243 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 00:38:59,243 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 00:38:59,282 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 00:38:59,427 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 00:44:48,970 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:44:49,358 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:44:49,359 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:44:49,362 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:44:49,362 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:44:49,362 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:44:49,362 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:44:50,166 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:44:50,531 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:44:50,532 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:44:50,535 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:44:50,582 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:44:50,606 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:44:50,606 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:44:50,609 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:44:50,610 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:44:55,099 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:44:57,316 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:44:57,316 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:44:57,317 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:45:02,380 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:45:06,614 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:45:06,614 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:45:06,614 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:46:34,015 - OnlineSimAPI - INFO - Cache miss for country: fraance. Updating cache...
+2024-12-21 00:46:36,111 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for fraance.
+2024-12-21 00:46:36,111 - OnlineSimAPI - WARNING - No numbers fetched for country: fraance
+2024-12-21 00:46:36,111 - OnlineSimAPI - ERROR - Error fetching numbers for country fraance: 404: No numbers found for country: fraance
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: fraance
+2024-12-21 00:46:42,212 - OnlineSimAPI - INFO - Cache miss for country: france. Updating cache...
+2024-12-21 00:46:43,752 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:46:43,753 - OnlineSimAPI - INFO - Cache updated for country: france
+2024-12-21 00:47:08,509 - OnlineSimAPI - INFO - Cache miss for country: estonia. Updating cache...
+2024-12-21 00:47:11,672 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:47:11,672 - OnlineSimAPI - INFO - Cache updated for country: estonia
+2024-12-21 00:49:12,567 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:49:12,928 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:49:12,928 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:49:12,931 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:49:12,931 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:49:12,931 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:49:12,931 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:49:13,683 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:49:14,068 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:49:14,068 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:49:14,071 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:49:14,118 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:49:14,141 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:49:14,141 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:49:14,144 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:49:14,144 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:49:16,870 - OnlineSimAPI - INFO - Cache miss for country: estonia. Updating cache...
+2024-12-21 00:49:18,693 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:49:18,693 - OnlineSimAPI - INFO - Cache updated for country: estonia
+2024-12-21 00:50:33,140 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:50:33,506 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:50:33,506 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:50:33,509 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:50:33,509 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:50:33,509 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:50:33,509 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:50:34,256 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:50:34,614 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:50:34,615 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:50:34,618 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:50:34,662 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:50:34,686 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:50:34,687 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:50:34,689 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:50:34,690 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:50:37,297 - OnlineSimAPI - INFO - Cache miss for country: estonia. Updating cache...
+2024-12-21 00:50:39,010 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:50:39,010 - OnlineSimAPI - INFO - Cache updated for country: estonia
+2024-12-21 00:51:39,075 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:51:39,446 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 00:51:39,944 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:51:40,009 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:51:40,317 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 00:51:40,380 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 00:51:40,555 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 00:51:40,708 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 00:51:40,730 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 00:51:41,734 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:51:41,911 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 00:51:42,331 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 00:51:42,619 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 00:51:42,647 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 00:51:42,808 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 00:51:46,497 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 00:51:46,808 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 00:51:47,031 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:51:47,277 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 00:51:48,089 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:51:53,931 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 00:51:54,108 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:51:55,389 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:51:55,503 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:51:58,019 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:51:58,019 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:51:58,020 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:52:09,595 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 00:52:09,649 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:52:09,763 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:52:09,784 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:52:10,192 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:52:10,238 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 00:52:10,246 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:52:10,361 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 00:52:10,825 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 00:52:11,294 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:52:11,323 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:52:11,351 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:52:11,770 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:52:11,854 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:52:12,267 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for north-macedonia.
+2024-12-21 00:52:13,062 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:52:13,229 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 00:52:13,254 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:52:13,424 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hong-kong.
+2024-12-21 00:52:13,540 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for saudi-arabia.
+2024-12-21 00:52:13,570 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:52:17,655 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:52:18,666 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:52:18,737 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 00:52:19,083 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 00:52:19,146 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:52:19,146 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:52:19,146 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:52:19,753 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 00:52:19,754 - OnlineSimAPI - WARNING - No numbers fetched for country: russia
+2024-12-21 00:52:19,754 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:52:30,205 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 00:52:30,591 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 00:52:30,764 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 00:52:30,980 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 00:52:31,053 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for new-zealand.
+2024-12-21 00:52:31,293 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 00:52:31,323 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 00:52:31,763 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 00:52:31,822 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ecuador.
+2024-12-21 00:52:31,924 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for panama.
+2024-12-21 00:52:32,059 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for australia.
+2024-12-21 00:52:32,102 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 00:52:32,114 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 00:52:32,778 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 00:52:32,778 - OnlineSimAPI - INFO - Cache updated for batch: ['usa', 'argentina', 'canada', 'brazil', 'mexico', 'chile', 'panama', 'colombia', 'salvador', 'ecuador', 'peru', 'nicaragua', 'australia', 'new-zealand']
+2024-12-21 00:52:52,357 - OnlineSimAPI - INFO - Cache miss for country: usa. Updating cache...
+2024-12-21 00:52:54,007 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 00:52:54,007 - OnlineSimAPI - WARNING - No numbers fetched for country: usa
+2024-12-21 00:52:54,007 - OnlineSimAPI - ERROR - Error fetching numbers for country usa: 404: No numbers found for country: usa
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: usa
+2024-12-21 00:55:03,427 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:03,792 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:03,792 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:03,795 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:03,795 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:55:03,795 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:55:03,796 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:55:04,556 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:04,909 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:04,909 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:04,912 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:04,953 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:55:04,991 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:04,991 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:04,994 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:04,994 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:55:10,339 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:55:12,704 - OnlineSimAPI - ERROR - Error updating cache for country russia: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 96, in update_country_cache
+    fresh_numbers = await fetch_fresh_numbers(session, country, self.headers, self.urls, show_all=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(hour_match.group(1))
+               ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'group'
+2024-12-21 00:55:12,705 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:55:51,685 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:52,046 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:52,046 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:52,049 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:52,049 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:55:52,049 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:55:52,049 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:55:52,802 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:53,162 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:53,162 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:53,165 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:53,207 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:55:53,231 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:55:53,231 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:55:53,234 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:55:53,234 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:56:00,045 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:56:01,824 - OnlineSimAPI - ERROR - Error updating cache for country russia: no such group
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 96, in update_country_cache
+    fresh_numbers = await fetch_fresh_numbers(session, country, self.headers, self.urls, show_all=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(week_match.group(1))
+               ^^^^^^^^^^^^^^^^^^^
+IndexError: no such group
+2024-12-21 00:56:01,825 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:56:48,370 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:56:48,742 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:56:48,743 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:56:48,746 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:56:48,746 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:56:48,746 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:56:48,746 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:56:49,511 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:56:49,892 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:56:49,892 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:56:49,895 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:56:49,940 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:56:49,964 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:56:49,964 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:56:49,967 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:56:49,967 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:56:52,099 - OnlineSimAPI - INFO - Cache miss for country: russia. Updating cache...
+2024-12-21 00:56:54,956 - OnlineSimAPI - ERROR - Error updating cache for country russia: no such group
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 96, in update_country_cache
+    fresh_numbers = await fetch_fresh_numbers(session, country, self.headers, self.urls, show_all=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(week_match.group(1))
+               ^^^^^^^^^^^^^^^^^^^
+IndexError: no such group
+2024-12-21 00:56:54,957 - OnlineSimAPI - ERROR - Error fetching numbers for country russia: 404: No numbers found for country: russia
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\routes\onlinesim_routes.py", line 60, in get_country_numbers
+    raise HTTPException(status_code=404, detail=f"No numbers found for country: {country}")
+fastapi.exceptions.HTTPException: 404: No numbers found for country: russia
+2024-12-21 00:57:03,659 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for romania.
+2024-12-21 00:57:03,903 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for spain.
+2024-12-21 00:57:05,079 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:57:05,115 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ukraine.
+2024-12-21 00:57:05,206 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:57:05,256 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for austria.
+2024-12-21 00:57:06,065 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ireland.
+2024-12-21 00:57:06,482 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for portugal.
+2024-12-21 00:57:06,876 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for netherlands.
+2024-12-21 00:57:06,983 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for estonia.
+2024-12-21 00:57:08,277 - OnlineSimAPI - ERROR - Error updating cache: no such group
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 61, in update_cache
+    results = await asyncio.gather(*tasks)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(week_match.group(1))
+               ^^^^^^^^^^^^^^^^^^^
+IndexError: no such group
+2024-12-21 00:57:08,986 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/united_kingdom?lang=en: Connector is closed.
+2024-12-21 00:57:08,986 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:57:08,993 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/czech?lang=en: Connector is closed.
+2024-12-21 00:57:08,994 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:57:08,994 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/poland?lang=en: Connector is closed.
+2024-12-21 00:57:08,994 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for poland.
+2024-12-21 00:57:08,994 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/lithuania?lang=en: Connector is closed.
+2024-12-21 00:57:08,994 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for lithuania.
+2024-12-21 00:57:08,994 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/latvia?lang=en: Connector is closed.
+2024-12-21 00:57:08,994 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for latvia.
+2024-12-21 00:57:15,526 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for cyprus.
+2024-12-21 00:57:15,683 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:57:16,302 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:57:16,615 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for estonia.
+2024-12-21 00:57:16,743 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for latvia.
+2024-12-21 00:57:16,816 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for germany.
+2024-12-21 00:57:16,862 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:57:16,990 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/finland?lang=en: Connector is closed.
+2024-12-21 00:57:16,990 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:57:16,997 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/germany?lang=en: Connector is closed.
+2024-12-21 00:57:16,997 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for germany.
+2024-12-21 00:57:16,997 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/france?lang=en: Connector is closed.
+2024-12-21 00:57:16,997 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for france.
+2024-12-21 00:57:16,998 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/denmark?lang=en: Connector is closed.
+2024-12-21 00:57:16,998 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 00:57:17,135 - OnlineSimAPI - ERROR - Failed to fetch data from https://onlinesim.site/api/v1/free_numbers_content/countries/sweden?lang=en: Connector is closed.
+2024-12-21 00:57:17,135 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 00:57:17,226 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for georgia.
+2024-12-21 00:57:17,356 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for netherlands.
+2024-12-21 00:57:18,182 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for poland.
+2024-12-21 00:57:18,744 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for sweden.
+2024-12-21 00:57:18,827 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:57:19,482 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ireland.
+2024-12-21 00:57:19,703 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for france.
+2024-12-21 00:57:19,782 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for denmark.
+2024-12-21 00:57:22,588 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for austria.
+2024-12-21 00:57:22,863 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:57:22,975 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for romania.
+2024-12-21 00:57:23,005 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for portugal.
+2024-12-21 00:57:23,234 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:57:30,408 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for lithuania.
+2024-12-21 00:57:30,623 - OnlineSimAPI - ERROR - Error updating cache: no such group
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 61, in update_cache
+    results = await asyncio.gather(*tasks)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(week_match.group(1))
+               ^^^^^^^^^^^^^^^^^^^
+IndexError: no such group
+2024-12-21 00:57:32,871 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for lithuania.
+2024-12-21 00:57:33,327 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for latvia.
+2024-12-21 00:57:33,499 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ukraine.
+2024-12-21 00:57:33,681 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for romania.
+2024-12-21 00:57:33,841 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for france.
+2024-12-21 00:57:34,103 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for poland.
+2024-12-21 00:57:34,252 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for estonia.
+2024-12-21 00:57:34,593 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for austria.
+2024-12-21 00:57:35,330 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for sweden.
+2024-12-21 00:57:35,755 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for portugal.
+2024-12-21 00:57:35,799 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for denmark.
+2024-12-21 00:57:35,998 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for spain.
+2024-12-21 00:57:36,090 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:57:36,322 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ireland.
+2024-12-21 00:57:36,784 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:57:40,219 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:57:40,271 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:57:40,500 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for georgia.
+2024-12-21 00:57:40,763 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for netherlands.
+2024-12-21 00:57:40,958 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:57:48,595 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:57:48,893 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for cyprus.
+2024-12-21 00:57:49,306 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:57:49,567 - OnlineSimAPI - ERROR - Error updating cache: no such group
+Traceback (most recent call last):
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\services\onlinesim_service.py", line 61, in update_cache
+    results = await asyncio.gather(*tasks)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 49, in fetch_fresh_numbers
+    if is_relevant_number(number_info["data_humans"], show_all=show_all)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\get-sms-free\app\libs\onlinesim_lib.py", line 20, in is_relevant_number
+    week = int(week_match.group(1))
+               ^^^^^^^^^^^^^^^^^^^
+IndexError: no such group
+2024-12-21 00:58:46,462 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:58:46,829 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:58:46,829 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:58:46,832 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:58:46,832 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 00:58:46,832 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 00:58:46,832 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 00:58:47,587 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:58:47,945 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:58:47,945 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:58:47,948 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:58:47,990 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 00:58:48,013 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 00:58:48,013 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 00:58:48,016 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 00:58:48,016 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 00:58:53,708 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for poland.
+2024-12-21 00:58:53,905 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for france.
+2024-12-21 00:58:54,026 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 00:58:54,406 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 00:58:55,132 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for romania.
+2024-12-21 00:58:55,277 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for austria.
+2024-12-21 00:58:55,377 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for spain.
+2024-12-21 00:58:55,460 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for lithuania.
+2024-12-21 00:58:55,582 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for cyprus.
+2024-12-21 00:58:55,645 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ireland.
+2024-12-21 00:58:56,273 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for portugal.
+2024-12-21 00:58:56,818 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for georgia.
+2024-12-21 00:58:57,153 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 00:58:57,207 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 00:58:58,255 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for ukraine.
+2024-12-21 00:59:00,007 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for denmark.
+2024-12-21 00:59:00,322 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for estonia.
+2024-12-21 00:59:00,533 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for sweden.
+2024-12-21 00:59:00,765 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 00:59:00,868 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 00:59:08,117 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for netherlands.
+2024-12-21 00:59:08,814 - OnlineSimAPI - INFO - Fetched 3 fresh numbers for latvia.
+2024-12-21 00:59:09,276 - OnlineSimAPI - INFO - Fetched 13 fresh numbers for russia.
+2024-12-21 00:59:10,003 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for germany.
+2024-12-21 00:59:10,051 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 00:59:10,051 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 00:59:10,051 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 00:59:21,092 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 00:59:21,114 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for bulgaria.
+2024-12-21 00:59:21,609 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for croatia.
+2024-12-21 00:59:21,678 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 00:59:21,775 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 00:59:21,799 - OnlineSimAPI - INFO - Fetched 2 fresh numbers for moldova.
+2024-12-21 00:59:21,881 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovakia.
+2024-12-21 00:59:22,115 - OnlineSimAPI - INFO - Fetched 13 fresh numbers for north-macedonia.
+2024-12-21 00:59:22,173 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 00:59:22,844 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 00:59:22,998 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 00:59:23,116 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 00:59:23,859 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 00:59:24,220 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 00:59:24,613 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 00:59:25,105 - OnlineSimAPI - INFO - Fetched 13 fresh numbers for hong-kong.
+2024-12-21 00:59:25,113 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 00:59:25,113 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 00:59:25,658 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 00:59:25,810 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 00:59:28,471 - OnlineSimAPI - INFO - Fetched 4 fresh numbers for slovenia.
+2024-12-21 00:59:28,628 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 00:59:28,986 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for indonesia.
+2024-12-21 00:59:29,346 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for malaysia.
+2024-12-21 00:59:30,351 - OnlineSimAPI - INFO - Fetched 13 fresh numbers for saudi-arabia.
+2024-12-21 00:59:30,351 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia', 'slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia', 'philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand', 'cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia', 'nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 00:59:30,351 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 01:00:28,785 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:00:29,140 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:00:29,141 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:00:29,143 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:00:29,144 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:00:29,144 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:00:29,144 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:00:29,892 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:00:30,242 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:00:30,242 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:00:30,245 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:00:30,287 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:00:30,331 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:00:30,331 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:00:30,334 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:00:30,334 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:00:37,654 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 01:00:38,358 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 01:00:38,610 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 01:00:38,635 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 01:00:39,012 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 01:00:39,212 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 01:00:39,394 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 01:00:39,398 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 01:00:39,413 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 01:00:40,195 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 01:00:40,376 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 01:00:40,502 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 01:00:40,676 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 01:00:41,068 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 01:00:41,594 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 01:00:43,278 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 01:00:43,955 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 01:00:44,258 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 01:00:44,699 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 01:00:44,726 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 01:00:52,024 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 01:00:52,079 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 01:00:52,099 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 01:00:53,394 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 01:00:54,769 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 01:00:54,769 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia', 'cyprus', 'portugal', 'sweden', 'denmark', 'estonia', 'latvia', 'lithuania', 'poland', 'france', 'romania', 'ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium', 'norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 01:00:54,769 - OnlineSimAPI - INFO - Waiting 10 seconds before next batch...
+2024-12-21 01:01:01,461 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:01:01,827 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:01:01,827 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:01:01,830 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:01:01,830 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:01:01,830 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:01:01,830 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:01:02,600 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:01:02,958 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:01:02,958 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:01:02,961 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:01:03,003 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:01:03,027 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:01:03,027 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:01:03,030 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:01:03,031 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:01:08,378 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for austria.
+2024-12-21 01:01:08,898 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for georgia.
+2024-12-21 01:01:09,638 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for spain.
+2024-12-21 01:01:11,680 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for russia.
+2024-12-21 01:01:12,090 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for united_kingdom.
+2024-12-21 01:01:12,090 - OnlineSimAPI - INFO - Cache updated for batch: ['russia', 'united_kingdom', 'austria', 'spain', 'georgia']
+2024-12-21 01:01:12,091 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:18,470 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for denmark.
+2024-12-21 01:01:19,147 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for portugal.
+2024-12-21 01:01:19,356 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for sweden.
+2024-12-21 01:01:19,449 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cyprus.
+2024-12-21 01:01:20,369 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for estonia.
+2024-12-21 01:01:20,369 - OnlineSimAPI - INFO - Cache updated for batch: ['cyprus', 'portugal', 'sweden', 'denmark', 'estonia']
+2024-12-21 01:01:20,369 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:26,591 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for latvia.
+2024-12-21 01:01:26,819 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for poland.
+2024-12-21 01:01:27,413 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for france.
+2024-12-21 01:01:28,115 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for lithuania.
+2024-12-21 01:01:28,621 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for romania.
+2024-12-21 01:01:28,621 - OnlineSimAPI - INFO - Cache updated for batch: ['latvia', 'lithuania', 'poland', 'france', 'romania']
+2024-12-21 01:01:28,621 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:35,055 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for belgium.
+2024-12-21 01:01:35,098 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for finland.
+2024-12-21 01:01:35,596 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for kazakhstan.
+2024-12-21 01:01:35,627 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ukraine.
+2024-12-21 01:01:36,286 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ireland.
+2024-12-21 01:01:36,286 - OnlineSimAPI - INFO - Cache updated for batch: ['ireland', 'ukraine', 'kazakhstan', 'finland', 'belgium']
+2024-12-21 01:01:36,286 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:42,864 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for netherlands.
+2024-12-21 01:01:42,995 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for germany.
+2024-12-21 01:01:43,366 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for norway.
+2024-12-21 01:01:43,459 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for italy.
+2024-12-21 01:01:44,945 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for czech.
+2024-12-21 01:01:44,945 - OnlineSimAPI - INFO - Cache updated for batch: ['norway', 'germany', 'netherlands', 'italy', 'czech']
+2024-12-21 01:01:44,946 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:51,096 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for slovakia.
+2024-12-21 01:01:51,193 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for bulgaria.
+2024-12-21 01:01:51,220 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for moldova.
+2024-12-21 01:01:51,429 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for croatia.
+2024-12-21 01:01:51,429 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for greece.
+2024-12-21 01:01:51,429 - OnlineSimAPI - INFO - Cache updated for batch: ['moldova', 'bulgaria', 'croatia', 'greece', 'slovakia']
+2024-12-21 01:01:51,429 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:01:57,439 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for switzerland.
+2024-12-21 01:01:57,454 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hungary.
+2024-12-21 01:01:57,825 - OnlineSimAPI - INFO - Fetched 1 fresh numbers for slovenia.
+2024-12-21 01:01:57,987 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for north-macedonia.
+2024-12-21 01:02:00,058 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for serbia.
+2024-12-21 01:02:00,058 - OnlineSimAPI - INFO - Cache updated for batch: ['slovenia', 'hungary', 'serbia', 'switzerland', 'north-macedonia']
+2024-12-21 01:02:00,058 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:06,699 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for indonesia.
+2024-12-21 01:02:07,437 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for philippines.
+2024-12-21 01:02:08,651 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for malaysia.
+2024-12-21 01:02:09,439 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for thailand.
+2024-12-21 01:02:09,573 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for hong-kong.
+2024-12-21 01:02:09,573 - OnlineSimAPI - INFO - Cache updated for batch: ['philippines', 'indonesia', 'malaysia', 'hong-kong', 'thailand']
+2024-12-21 01:02:09,573 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:16,176 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for taiwan.
+2024-12-21 01:02:17,089 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for cambodia.
+2024-12-21 01:02:17,390 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mongolia.
+2024-12-21 01:02:17,625 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for singapore.
+2024-12-21 01:02:18,091 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for vietnam.
+2024-12-21 01:02:18,091 - OnlineSimAPI - INFO - Cache updated for batch: ['cambodia', 'vietnam', 'taiwan', 'singapore', 'mongolia']
+2024-12-21 01:02:18,091 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:24,954 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for myanmar.
+2024-12-21 01:02:24,956 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for israel.
+2024-12-21 01:02:25,044 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for saudi-arabia.
+2024-12-21 01:02:25,054 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for laos.
+2024-12-21 01:02:25,086 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nepal.
+2024-12-21 01:02:25,086 - OnlineSimAPI - INFO - Cache updated for batch: ['nepal', 'laos', 'myanmar', 'israel', 'saudi-arabia']
+2024-12-21 01:02:25,086 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:31,887 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for brazil.
+2024-12-21 01:02:32,209 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for canada.
+2024-12-21 01:02:32,241 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for argentina.
+2024-12-21 01:02:32,926 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for usa.
+2024-12-21 01:02:32,930 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for mexico.
+2024-12-21 01:02:32,930 - OnlineSimAPI - INFO - Cache updated for batch: ['usa', 'argentina', 'canada', 'brazil', 'mexico']
+2024-12-21 01:02:32,930 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:40,122 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for panama.
+2024-12-21 01:02:40,427 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for chile.
+2024-12-21 01:02:40,558 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for ecuador.
+2024-12-21 01:02:40,798 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for salvador.
+2024-12-21 01:02:40,849 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for colombia.
+2024-12-21 01:02:40,850 - OnlineSimAPI - INFO - Cache updated for batch: ['chile', 'panama', 'colombia', 'salvador', 'ecuador']
+2024-12-21 01:02:40,850 - OnlineSimAPI - INFO - Waiting 5 seconds before next batch...
+2024-12-21 01:02:47,397 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for nicaragua.
+2024-12-21 01:02:47,411 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for peru.
+2024-12-21 01:02:47,418 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for new-zealand.
+2024-12-21 01:02:48,471 - OnlineSimAPI - INFO - Fetched 0 fresh numbers for australia.
+2024-12-21 01:02:48,471 - OnlineSimAPI - INFO - Cache updated for batch: ['peru', 'nicaragua', 'australia', 'new-zealand']
+2024-12-21 01:05:16,169 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:16,582 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:16,582 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:16,585 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:16,586 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:05:16,586 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:05:16,586 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:05:17,394 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:17,751 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:17,752 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:17,755 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:17,796 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:05:17,818 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:17,818 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:17,821 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:17,821 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:05:53,767 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:54,110 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:54,110 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:54,113 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:54,113 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:05:54,113 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:05:54,113 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:05:54,872 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:55,198 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:55,199 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:55,202 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:55,248 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:05:55,272 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:05:55,272 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:05:55,274 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:05:55,275 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:06:32,456 - JapaneseNameGenerator - INFO - Random Japanese names started..
+2024-12-21 01:06:32,456 - JapaneseNameGenerator - INFO - URL was builded.
+2024-12-21 01:06:32,459 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:06:34,116 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:06:34,192 - JapaneseNameGenerator - INFO - Response 200 OK
+2024-12-21 01:06:34,233 - JapaneseNameGenerator - INFO - Names parsed well.
+2024-12-21 01:06:34,234 - JapaneseNameGenerator - INFO - List of name was received.
+2024-12-21 01:06:34,235 - JapaneseNameGenerator - INFO - Generated names:
+2024-12-21 01:06:34,235 - JapaneseNameGenerator - INFO - Hakudo Kishita
+2024-12-21 01:06:34,235 - JapaneseNameGenerator - INFO - All done well.
+2024-12-21 01:10:55,295 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:14:23,857 - JapaneseNameGenerator - INFO - Random Japanese names started..
+2024-12-21 01:14:23,857 - JapaneseNameGenerator - INFO - URL was builded.
+2024-12-21 01:14:23,859 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:14:25,465 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:14:25,529 - JapaneseNameGenerator - INFO - Response 200 OK
+2024-12-21 01:14:25,565 - JapaneseNameGenerator - INFO - Names parsed well.
+2024-12-21 01:14:25,565 - JapaneseNameGenerator - INFO - List of name was received.
+2024-12-21 01:14:25,565 - JapaneseNameGenerator - INFO - Generated names:
+2024-12-21 01:14:25,566 - JapaneseNameGenerator - INFO - Risaburo Kino
+2024-12-21 01:14:25,566 - JapaneseNameGenerator - INFO - All done well.
+2024-12-21 01:15:54,086 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:15:54,452 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:15:54,452 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:15:54,455 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:15:54,500 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:15:54,523 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:15:54,524 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:15:54,526 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:15:54,527 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:22:12,636 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:22:12,976 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:22:12,976 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:22:12,980 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:22:12,980 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:22:12,980 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:22:12,980 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:22:13,721 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:22:14,053 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:22:14,053 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:22:14,056 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:22:14,105 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:22:14,132 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:22:14,132 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:22:14,135 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:22:14,135 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:22:17,570 - OnlineSimAPI - INFO - Random Japanese names started..
+2024-12-21 01:22:17,570 - OnlineSimAPI - INFO - URL was builded.
+2024-12-21 01:22:17,572 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:22:19,225 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:22:19,226 - OnlineSimAPI - INFO - Response 200 OK
+2024-12-21 01:22:19,263 - OnlineSimAPI - INFO - Names parsed well.
+2024-12-21 01:22:19,264 - OnlineSimAPI - INFO - List of name was received.
+2024-12-21 01:22:19,265 - OnlineSimAPI - INFO - Generated names:
+2024-12-21 01:22:19,265 - OnlineSimAPI - INFO - Hiroki Odama
+2024-12-21 01:22:19,265 - OnlineSimAPI - INFO - All done well.
+2024-12-21 01:51:22,469 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:51:22,816 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:51:22,817 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:51:22,819 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:51:22,819 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:51:22,819 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:51:22,820 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:51:23,587 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:51:23,927 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:51:23,928 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:51:23,931 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:51:23,975 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:51:23,999 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:51:23,999 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:51:24,002 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:51:24,002 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:51:29,168 - OnlineSimAPI - INFO - Random Japanese names started..
+2024-12-21 01:51:29,168 - OnlineSimAPI - INFO - URL was builded.
+2024-12-21 01:51:29,169 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:51:30,734 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:51:30,796 - OnlineSimAPI - INFO - Response 200 OK
+2024-12-21 01:51:30,834 - OnlineSimAPI - INFO - Names parsed well.
+2024-12-21 01:51:30,835 - OnlineSimAPI - INFO - List of name was received.
+2024-12-21 01:51:30,835 - OnlineSimAPI - INFO - All done well.
+2024-12-21 01:53:25,693 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:26,066 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:26,066 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:26,070 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:26,070 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:53:26,070 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:53:26,070 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:53:26,891 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:27,234 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:27,235 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:27,238 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:27,282 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:53:27,305 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:27,305 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:27,309 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:27,309 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:53:29,417 - OnlineSimAPI - INFO - Random Japanese names started..
+2024-12-21 01:53:29,418 - OnlineSimAPI - INFO - URL was builded.
+2024-12-21 01:53:29,420 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:53:31,264 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:53:31,266 - OnlineSimAPI - INFO - Response 200 OK
+2024-12-21 01:53:31,301 - OnlineSimAPI - INFO - Names parsed well.
+2024-12-21 01:53:31,302 - OnlineSimAPI - INFO - List of name was received.
+2024-12-21 01:53:31,303 - OnlineSimAPI - INFO - All done well.
+2024-12-21 01:53:57,820 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:58,173 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:58,174 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:58,178 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:58,178 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:53:58,178 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:53:58,178 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:53:58,953 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:59,307 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:59,307 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:59,311 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:59,353 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:53:59,376 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:53:59,376 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:53:59,379 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:53:59,380 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:54:00,704 - OnlineSimAPI - INFO - Random Japanese names started..
+2024-12-21 01:54:00,704 - OnlineSimAPI - INFO - URL was builded.
+2024-12-21 01:54:00,705 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:54:02,155 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:54:02,341 - OnlineSimAPI - INFO - Response 200 OK
+2024-12-21 01:54:02,377 - OnlineSimAPI - INFO - Names parsed well.
+2024-12-21 01:54:02,378 - OnlineSimAPI - INFO - List of name was received.
+2024-12-21 01:54:02,378 - OnlineSimAPI - INFO - All done well.
+2024-12-21 01:55:00,170 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:55:00,533 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:55:00,533 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:55:00,536 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:55:00,536 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 01:55:00,536 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 01:55:00,536 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 01:55:01,294 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:55:01,629 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:55:01,629 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:55:01,632 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:55:01,677 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 01:55:01,700 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 01:55:01,701 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 01:55:01,704 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 01:55:01,704 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 01:55:04,492 - OnlineSimAPI - INFO - Random Japanese names started..
+2024-12-21 01:55:04,492 - OnlineSimAPI - INFO - URL was builded.
+2024-12-21 01:55:04,494 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): namegen.jp:443
+2024-12-21 01:55:06,282 - urllib3.connectionpool - DEBUG - https://namegen.jp:443 "GET /en?country=japan&sex=male&firstname=&firstname_cond=fukumu&firstname_rarity=very_rare&lastname=&lastname_cond=fukumu&lastname_rarity=very_rare HTTP/11" 200 None
+2024-12-21 01:55:06,310 - OnlineSimAPI - INFO - Response 200 OK
+2024-12-21 01:55:06,347 - OnlineSimAPI - INFO - Names parsed well.
+2024-12-21 01:55:06,349 - OnlineSimAPI - INFO - List of name was received.
+2024-12-21 01:55:06,349 - OnlineSimAPI - INFO - All done well.
+2024-12-21 02:00:01,702 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:04:27,044 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:04:27,391 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:04:27,392 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:04:27,395 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:04:27,395 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:04:27,395 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:04:27,395 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:04:28,177 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:04:28,518 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:04:28,518 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:04:28,522 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:04:28,571 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:04:28,595 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:04:28,596 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:04:28,599 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:04:28,599 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:05:49,941 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:05:50,279 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:05:50,279 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:05:50,283 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:05:50,283 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:05:50,283 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:05:50,283 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:05:51,065 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:05:51,415 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:05:51,416 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:05:51,420 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:05:51,467 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:05:51,489 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:05:51,490 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:05:51,493 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:05:51,493 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:09:54,675 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:09:55,022 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:09:55,022 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:09:55,026 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:09:55,026 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:09:55,026 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:09:55,026 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:09:55,789 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:09:56,156 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:09:56,156 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:09:56,159 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:09:56,204 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:09:56,229 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:09:56,229 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:09:56,232 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:09:56,232 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:19:01,407 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:19:01,756 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:19:01,756 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:19:01,760 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:19:01,760 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:19:01,760 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:19:01,760 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:19:02,522 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:19:02,855 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:19:02,855 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:19:02,860 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:19:02,906 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:19:02,927 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:19:02,927 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:19:02,932 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:19:02,932 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:24:02,955 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:29:01,710 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:29:02,085 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:29:02,085 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:29:02,090 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:29:02,140 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:29:02,164 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:29:02,164 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:29:02,168 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:29:02,169 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:52:39,315 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:42,250 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:42,591 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:42,592 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:55:42,597 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:55:42,597 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:55:42,597 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:55:42,597 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:55:43,369 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:43,706 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:43,706 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:55:43,711 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:55:43,753 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:55:43,778 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:55:43,778 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:55:43,783 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:55:43,784 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 02:59:30,014 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:59:30,362 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:59:30,363 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:59:30,369 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:59:30,369 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 02:59:30,369 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 02:59:30,369 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 02:59:31,160 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:59:31,533 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:59:31,533 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:59:31,538 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:59:31,582 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 02:59:31,608 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 02:59:31,608 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 02:59:31,613 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 02:59:31,614 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:04:31,587 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:07:50,797 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:07:51,137 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:07:51,137 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:07:51,143 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:07:51,143 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:07:51,143 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:07:51,143 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:07:51,911 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:07:52,263 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:07:52,264 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:07:52,270 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:07:52,312 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:07:52,336 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:07:52,336 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:07:52,342 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:07:52,342 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:09:34,519 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:09:34,862 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:09:34,863 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:09:34,868 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:09:34,868 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:09:34,868 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:09:34,868 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:09:35,616 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:09:35,976 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:09:35,977 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:09:35,982 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:09:36,027 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:09:36,050 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:09:36,050 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:09:36,055 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:09:36,056 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:10:14,749 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:10:15,107 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:10:15,108 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:10:15,113 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:10:15,114 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:10:15,114 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:10:15,114 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:10:15,912 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:10:16,271 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:10:16,271 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:10:16,277 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:10:16,324 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:10:16,349 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:10:16,349 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:10:16,355 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:10:16,355 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:15:15,105 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:15:15,466 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:15:15,466 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:15:15,473 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:15:15,519 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:15:15,544 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:15:15,544 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:15:15,549 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:15:15,550 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:21:38,106 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:21:38,489 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:21:38,489 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:21:38,498 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:21:38,498 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:21:38,498 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:21:38,498 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:21:39,292 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:21:39,640 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:21:39,640 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:21:39,646 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:21:39,691 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:21:39,716 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:21:39,716 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:21:39,721 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:21:39,722 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:24:04,589 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:04,932 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:04,932 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:04,938 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:04,938 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:24:04,938 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:24:04,939 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:24:05,739 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:06,107 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:06,107 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:06,113 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:06,161 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:24:06,185 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:06,185 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:06,190 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:06,191 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:24:56,297 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:56,637 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:56,637 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:56,642 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:56,642 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:24:56,643 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:24:56,643 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:24:57,399 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:57,753 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:57,754 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:57,759 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:57,807 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:24:57,831 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:24:57,831 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:24:57,836 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:24:57,837 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:26:04,870 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:26:05,214 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:26:05,214 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:26:05,219 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:26:05,219 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:26:05,220 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:26:05,220 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:26:05,991 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:26:06,335 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:26:06,336 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:26:06,341 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:26:06,388 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:26:06,412 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:26:06,413 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:26:06,418 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:26:06,418 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:28:15,837 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:28:16,188 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:28:16,188 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:28:16,194 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:28:16,194 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:28:16,194 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:28:16,194 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:28:16,973 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:28:17,340 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:28:17,340 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:28:17,346 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:28:17,393 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:28:17,417 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:28:17,417 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:28:17,423 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:28:17,423 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:30:56,747 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:30:57,111 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:30:57,112 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:30:57,117 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:30:57,117 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:30:57,117 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:30:57,117 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:30:57,947 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:30:58,313 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:30:58,314 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:30:58,319 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:30:58,368 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:30:58,393 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:30:58,393 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:30:58,398 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:30:58,399 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:31:54,268 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:31:54,635 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:31:54,635 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:31:54,640 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:31:54,641 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:31:54,641 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:31:54,641 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:31:55,416 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:31:55,754 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:31:55,754 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:31:55,760 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:31:55,806 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:31:55,829 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:31:55,829 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:31:55,835 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:31:55,835 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:37:01,386 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:31,354 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:31,693 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:31,693 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:38:31,699 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:38:31,699 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:38:31,699 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:38:31,699 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:38:32,432 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:32,783 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:32,783 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:38:32,789 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:38:32,832 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:38:32,856 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:38:32,857 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:38:32,862 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:38:32,862 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:39:31,104 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:39:31,450 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:39:31,450 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:39:31,455 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:39:31,455 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:39:31,455 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:39:31,455 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:39:32,203 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:39:32,548 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:39:32,548 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:39:32,555 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:39:32,605 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:39:32,629 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:39:32,629 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:39:32,635 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:39:32,635 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:41:37,583 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:41:37,923 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:41:37,924 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:41:37,930 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:41:37,930 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:41:37,930 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:41:37,930 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:41:38,671 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:41:39,023 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:41:39,024 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:41:39,029 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:41:39,070 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:41:39,095 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:41:39,095 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:41:39,101 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:41:39,102 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:46:26,682 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:46:27,053 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:46:27,054 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:46:27,059 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:46:27,059 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:46:27,059 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:46:27,059 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:46:27,835 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:46:28,188 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:46:28,189 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:46:28,194 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:46:28,236 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:46:28,261 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:46:28,261 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:46:28,269 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:46:28,270 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:47:23,638 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:47:23,993 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:47:23,994 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:47:23,999 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:47:23,999 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:47:23,999 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:47:23,999 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:47:24,772 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:47:25,115 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:47:25,116 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:47:25,121 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:47:25,164 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:47:25,189 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:47:25,189 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:47:25,194 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:47:25,195 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:49:51,055 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:49:51,427 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:49:51,428 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:49:51,433 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:49:51,434 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:49:51,434 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:49:51,434 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:49:52,249 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:49:52,618 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:49:52,619 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:49:52,624 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:49:52,670 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:49:52,693 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:49:52,693 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:49:52,699 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:49:52,699 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:50:21,959 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:50:22,303 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:50:22,304 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:50:22,309 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:50:22,309 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:50:22,309 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:50:22,309 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:50:23,057 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:50:23,420 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:50:23,421 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:50:23,426 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:50:23,475 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:50:23,500 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:50:23,500 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:50:23,506 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:50:23,506 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 03:53:59,558 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:53:59,925 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:53:59,925 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:53:59,931 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:53:59,931 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 03:53:59,931 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 03:53:59,931 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 03:54:00,736 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:54:01,084 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:54:01,085 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:54:01,090 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:54:01,135 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 03:54:01,159 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 03:54:01,159 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 03:54:01,165 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 03:54:01,165 - OnlineSimAPI - INFO - fdgkfldjgd.
+2024-12-21 18:40:58,904 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 18:40:59,252 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 18:40:59,253 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 18:40:59,257 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 18:40:59,257 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 18:40:59,257 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 18:40:59,257 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 18:41:00,002 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 18:41:00,340 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 18:41:00,341 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 18:41:00,344 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 18:41:00,386 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 18:41:00,411 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 18:41:00,411 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 18:41:00,415 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 18:41:00,415 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 19:41:08,301 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:44:54,447 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:45:35,031 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:45:35,352 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:45:35,353 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:45:35,356 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:45:35,357 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 19:45:35,357 - OnlineSimAPI - INFO - Main: api/app/certs\selfsigned.crt, api/app/certs\selfsigned.key
+2024-12-21 19:45:35,357 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 19:45:36,060 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:45:36,368 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:45:36,368 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:45:36,372 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:45:36,407 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:46:02,242 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:02,564 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:02,564 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:46:02,568 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:46:02,604 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:46:05,551 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:05,886 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:05,886 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:46:05,894 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:46:05,894 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 19:46:05,894 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 19:46:05,894 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 19:46:06,609 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:06,929 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:06,929 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:46:06,933 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:46:06,968 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:46:06,987 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:46:06,987 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:46:06,991 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:46:06,991 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 19:52:46,578 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:52:46,912 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:52:46,912 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:52:46,916 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:52:46,916 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 19:52:46,916 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 19:52:46,917 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 19:52:47,621 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:52:47,932 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:52:47,932 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:52:47,936 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:52:47,971 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:52:47,990 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:52:47,990 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:52:47,994 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:52:47,995 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 19:55:12,582 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:55:12,913 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:55:12,914 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:55:12,917 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:55:12,918 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 19:55:12,918 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 19:55:12,918 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 19:55:13,626 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:55:13,942 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:55:13,943 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:55:13,947 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:55:13,985 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:55:14,007 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:55:14,007 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:55:14,011 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:55:14,011 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 19:56:55,850 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:56:56,170 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:56:56,171 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:56:56,174 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:56:56,174 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 19:56:56,174 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 19:56:56,175 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 19:56:56,864 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:56:57,181 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:56:57,181 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:56:57,185 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:56:57,220 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 19:56:57,237 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 19:56:57,238 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 19:56:57,242 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 19:56:57,242 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 20:18:34,573 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:34,900 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:34,900 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:34,904 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:34,904 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 20:18:34,904 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 20:18:34,904 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 20:18:35,602 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:35,918 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:35,919 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:35,922 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:35,959 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:18:52,415 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:52,731 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:52,731 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:52,735 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:52,774 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:18:54,979 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:55,343 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:55,343 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:55,347 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:55,347 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 20:18:55,347 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 20:18:55,347 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 20:18:56,071 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:56,387 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:56,387 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:56,391 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:56,426 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:18:56,445 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:18:56,445 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:18:56,449 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:18:56,449 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 20:24:47,676 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:24:48,003 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:24:48,004 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:24:48,007 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:24:48,007 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 20:24:48,008 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 20:24:48,008 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 20:24:48,712 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:24:49,031 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:24:49,031 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:24:49,035 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:24:49,069 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:24:49,088 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:24:49,088 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:24:49,091 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:24:49,092 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 20:29:37,472 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:29:37,804 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:29:37,804 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:29:37,808 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:29:37,808 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 20:29:37,808 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 20:29:37,808 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 20:29:38,544 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:29:38,885 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:29:38,886 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:29:38,889 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:29:38,925 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:29:38,944 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:29:38,945 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:29:38,948 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:29:38,949 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 20:32:44,570 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:09,115 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:09,441 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:09,441 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:33:09,445 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:33:09,445 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 20:33:09,445 - OnlineSimAPI - INFO - Main: app/certs\selfsigned.crt, app/certs\selfsigned.key
+2024-12-21 20:33:09,445 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 20:33:10,154 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:10,490 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:10,491 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:33:10,495 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:33:10,533 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 20:33:10,555 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 20:33:10,555 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 20:33:10,559 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 20:33:10,559 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 21:09:01,442 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:01,825 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:01,826 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:01,830 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:01,831 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 21:09:01,831 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 21:09:01,831 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 21:09:02,580 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:02,906 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:02,907 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:02,911 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:02,953 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 21:09:02,986 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:02,986 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:02,990 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:02,990 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 21:09:24,477 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:24,822 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:24,822 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:24,826 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:24,826 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 21:09:24,826 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 21:09:24,826 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 21:09:25,588 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:25,924 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:25,924 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:25,928 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:25,970 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 21:09:25,993 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:09:25,993 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:09:25,997 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:09:25,997 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 21:15:50,962 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:15:51,313 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:15:51,313 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:15:51,317 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:15:51,317 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 21:15:51,317 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 21:15:51,317 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 21:15:52,059 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:15:52,385 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:15:52,385 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:15:52,389 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:15:52,429 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 21:15:52,504 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:15:52,504 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:15:52,508 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:15:52,509 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 21:31:06,247 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:31:06,572 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:31:06,572 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:31:06,577 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:31:06,577 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 21:31:06,577 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 21:31:06,578 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 21:31:07,280 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:31:07,596 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:31:07,596 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:31:07,600 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:31:07,635 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 21:31:07,652 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:31:07,652 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:31:07,656 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:31:07,656 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 21:42:01,071 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:42:01,404 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:42:01,404 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:42:01,408 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:42:01,408 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 21:42:01,408 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 21:42:01,408 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 21:42:02,117 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:42:02,437 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:42:02,437 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:42:02,441 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:42:02,476 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 21:42:02,494 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 21:42:02,495 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 21:42:02,498 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 21:42:02,499 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 22:26:36,726 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:26:37,054 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:26:37,054 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:26:37,058 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:26:37,058 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 22:26:37,058 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 22:26:37,058 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 22:26:37,751 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:26:38,064 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:26:38,064 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:26:38,068 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:26:38,102 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 22:26:38,120 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:26:38,120 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:26:38,123 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:26:38,124 - OnlineSimAPI - INFO - RELOAD SMTHNG.
+2024-12-21 22:57:12,650 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:18,773 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:25,716 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:32,575 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:38,291 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:38,619 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:38,620 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:57:38,624 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:57:38,624 - OnlineSimAPI - INFO - Main: Loading certificates...
+2024-12-21 22:57:38,624 - OnlineSimAPI - INFO - Main: certs\selfsigned.crt, certs\selfsigned.key
+2024-12-21 22:57:38,624 - OnlineSimAPI - INFO - Main: Starting api service...
+2024-12-21 22:57:39,367 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:39,707 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:39,707 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:57:39,712 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:57:39,749 - asyncio - DEBUG - Using selector: SelectSelector
+2024-12-21 22:57:39,770 - OnlineSimAPI - INFO - OnlinesimService initialized successfully.
+2024-12-21 22:57:39,771 - OnlineSimAPI - INFO - FASTAPI: ('9733n API',) ('0.1.0.3',) ('API for fetching and monitoring SMS messages via various services.',)
+2024-12-21 22:57:39,775 - OnlineSimAPI - INFO - Application initialized successfully.
+2024-12-21 22:57:39,775 - OnlineSimAPI - INFO - RELOAD SMTHNG.

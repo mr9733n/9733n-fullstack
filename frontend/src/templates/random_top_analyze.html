@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-inner">
+            {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+            <span id="theme-toggle" class="dark-mode"></span>
+            <span id="version">Version: {{ version }}</span>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Random Number Analysis</h1>
+            <form id="generator-form" method="post">
+                <div class="label-input">
+                <label for="first_number">Start number:</label>
+                <input type="number" id="first_number" name="first_number" required value="{{ default_first_number }}"><br><br>
+                </div>
+                <div class="label-input">
+                <label for="last_number">End number:</label>
+                <input type="number" id="last_number" name="last_number" required value="{{ default_last_number }}"><br><br>
+                </div>
+                <div class="label-input">
+                <label for="numbers_to_select">Number of selections:</label>
+                <input type="number" id="numbers_to_select" name="numbers_to_select" required value="{{ default_numbers_to_select }}" min="3" max="99" style="width: 30px;"><br><br>
+                </div>
+                <div class="label-input">
+                <label for="simulation_runs">Number of simulation runs:</label>
+                <input type="number" id="simulation_runs" name="simulation_runs" required value="{{ default_simulation_runs }}" min="1000" max="23000000">
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <input type="submit" value="Start">
+                </div>
+            </form>
+        <div>
+            {% if analysis %}
+                <h2>Simulation Results:</h2>
+                <div class="results-container">
+                    <span class="result" data-result="{{ analysis.top.tolist() }}">Copy most frequently rolled numbers: {{ analysis.top.tolist() }}</span>
+                    <button class="copy-button initial">Copy</button> 
+                    <script src="{{ url_for('static', filename='script_copy.js') }}"></script>
+                    <ul>
+                        {% for number in analysis.top %}
+                            <li>Number {{ number }}: {{ analysis.frequency[number]|round(8) }}%</li>
+                        {% endfor %}
+                    </ul>
+                    {% if analysis.missing_numbers %}
+                    <span class="failed">Numbers that did not roll:</span>
+                        <ul>
+                            {% for number in analysis.missing_numbers %}
+                                <li>{{ number }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <span class="passed">All numbers rolled at least once.</span>
+                    {% endif %}
+                {% else %}
+                    <p>No analysis data available.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
