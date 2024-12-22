@@ -2,4 +2,4 @@
 *.pyc
 *.txt
 .idea/*
-app/logs/*
+api/logs/*

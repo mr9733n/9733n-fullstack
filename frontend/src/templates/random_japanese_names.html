@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Name Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-inner">
+            {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+            <span id="theme-toggle" class="dark-mode"></span>
+            <span id="version">Version: {{ version }}</span>
+        </div>
+    </div>
+    <div class="container">
+            <h1>Japanese Name Generator</h1>
+                <form id="generator-form" method="post">
+                <div class="label-input">
+                    <label for="num_names">Number of Names:</label>
+                    <input type="number" id="num_names" name="num_names" required value="1" min="1" max="25" style="width: 30px;">
+                </div>
+                <div class="label-input">
+                    <label for="sex">Gender:</label>
+                    <select id="sex" name="sex">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <input type="submit" value="Generate Names">
+                </div>
+            </form>
+        <div>
+            {% for name in names %}
+                <h2>Results:</h2>
+                <div class="results-container">
+                    <span class="result" data-result="{{ name }}">{{ name }}</span>
+                    <button class="copy-button initial">Copy</button> 
+                </div>
+            {% endfor %}
+        </div>
+    <script src="{{ url_for('static', filename='script_copy.js') }}"></script>
+    </div>
+</body>
+</html>

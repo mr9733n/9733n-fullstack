@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Reader</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+    <script src="{{ url_for('static', filename='rss_feed.js') }}"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-inner">
+            {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+            <span id="theme-toggle" class="dark-mode"></span>
+            <span id="version">Version: {{ version }}</span>
+        </div>
+    </div>
+    <div class="container">
+        <h1>RSS Parser</h1>
+        <form id="rss_url" method="post">
+            <div class="label-input">
+                <label for="rss_url">URL:</label>
+                <input type="text" id="rss_url" name="rss_url" value="{{ rss_url }}" style="width: 300px;">
+            </div>
+            <div class="container">
+                <input type="submit" value="Reload">
+            </div>
+        </form>    
+        <div class="results-container">
+            <div id="rss-feed"></div>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

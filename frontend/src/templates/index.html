@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-inner">
+                {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+            <span id="theme-toggle" class="dark-mode"></span>
+            <span id="version">Version: {{ version }}</span>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Randomazers!</h1>
+        <p>This is the home page.</p>
+</div></body>
+</html>

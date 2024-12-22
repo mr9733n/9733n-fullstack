@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./backend:/backend
+    environment:
+      - HOSTNAME=${HOSTNAME:-9733n.lab}
+      - PYTHONPATH=/backend
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "${FRONTEND_PORT:-5000}:5000"
+    volumes:
+      - ./frontend:/frontend
+    environment:
+      - PYTHONPATH=/frontend/src
+      - FLASK_ENV=production
+    restart: always

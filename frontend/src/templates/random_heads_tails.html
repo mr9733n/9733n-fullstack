@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-inner">
+            {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+            <span id="theme-toggle" class="dark-mode"></span>
+            <span id="version">Version: {{ version }}</span>
+        </div>
+    </div>
+    <div class="container">
+            <h1>Coin Flip</h1>
+                <form id="generator-form" method="post">
+                <div class="label-input">
+                    <label for="num_flips">Number of Flips:</label>
+                    <input type="number" name="num_flips" id="num_flips" required value="1000" min="1" max="9999" style="width: 50px;">
+                </div>
+                
+                <div class="label-input">
+                    <label for="who_wins">Choose who will win:</label>
+                    <select id="who_wins" name="who_wins">
+                        <option value=""></option>
+                        <option value="heads">Heads</option>
+                        <option value="tails">Tails</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="container">
+                    <input type="submit" value="Start">
+                </div>
+            </form>
+        <div>
+            {% if show_results %}
+            <h2>Results:</h2>
+            <div class="results-container">
+                <p>Heads: {{ heads }}%</p>
+                <p>Tails: {{ tails }}%</p>
+            </div>
+            <h2>{% if heads > tails %} Heads wins! {% elif tails > heads %} Tails wins! {% else %} It's a tie! {% endif %}</h2>
+            {% if match is not none %}
+                {% if match %}
+                    <h2>You chose right!</h2>
+                {% else %}
+                    <h2>You chose wrong!</h2>
+                {% endif %}
+            {% endif %}
+        {% endif %}       
+        </div>
+    </div>
+</body>
+</html>

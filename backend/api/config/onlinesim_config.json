@@ -1,0 +1,37 @@
+{
+    "countries": [
+      "russia",      "united_kingdom",      "austria",      "spain",      "georgia",      "cyprus",      "portugal",
+      "sweden",      "denmark",      "estonia",      "latvia",      "lithuania",      "poland",      "france",
+      "romania",      "ireland",      "ukraine",      "kazakhstan",      "finland",      "belgium",      "norway",
+      "germany",      "netherlands",      "italy",      "czech",      "moldova",      "bulgaria",      "croatia",
+      "greece",      "slovakia",      "slovenia",      "hungary",      "serbia",      "switzerland",
+      "north-macedonia",      "philippines",      "indonesia",      "malaysia",      "hong-kong",      "thailand",      
+      "cambodia",      "vietnam",      "taiwan",      "singapore",      "mongolia",      "nepal",      "laos",      
+      "myanmar",      "israel",      "saudi-arabia",      "usa",      "argentina",      "canada",      "brazil",      
+      "mexico",      "chile",      "panama",      "colombia",      "salvador",      "ecuador",      "peru",      
+      "nicaragua",      "australia",      "new-zealand"
+    ],
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "ru,en;q=0.9",
+      "Connection": "keep-alive",
+      "DNT": "1",
+      "Host": "onlinesim.site",
+      "Referer": "https://onlinesim.site/free_numbers",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 YaBrowser/24.7.0.0 Safari/537.36",
+      "api": "true",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"YaBrowser\";v=\"24.7\", \"Yowser\";v=\"2.5\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "Authorization": "${ONLINE_SIM_API_KEY}"
+    },
+    "urls": {
+      "fetch_numbers_url": "https://onlinesim.site/api/v1/free_numbers_content/countries/{country}?lang=en",
+      "fetch_sms_url": "https://onlinesim.site/api/v1/free_numbers_content/countries/{country}/{number}?&lang=en"
+    }
+}
+  
