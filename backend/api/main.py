@@ -19,10 +19,10 @@ cache = {}
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
+__version__ = os.getenv("APP_VERSION", "0.1.4.x")
 api_key = os.getenv('ONLINE_SIM_API_KEY', 'default_secret_key')
 
 title = main_config.get("app_name", "9733n API"),
-version = main_config.get("version", "0.1.0.0"),
 description = main_config.get("description", "Default API description"),
 author = main_config.get("author", "9733n")
 
@@ -46,11 +46,11 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title=title,
-    version=version,
+    version=__version__,
     description=description,
     lifespan=lifespan
 )
-logger.info(f"FASTAPI: {title} {version} {description}")
+logger.info(f"FASTAPI: {title} {__version__} {description}")
 if api_key:
     onlinesim_config["headers"]["Authorization"] = api_key
 else:

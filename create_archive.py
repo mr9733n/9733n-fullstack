@@ -3,11 +3,41 @@ import shutil
 import zipfile
 from pathlib import Path
 
+APP_VERSION = "0.1.4.2"
 OUTPUT_DIR = r"F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim"
 SOURCE_DIR = r"F:\9834758345hf7A\OnlineSim-Client\free_sms_onlinesim\9733n-fullstack"
 OUTPUT_NAME = "9733n-fullstack"
 EXCLUSIONS = {"create_archive.py", ".venv1", ".venv", ".idea", ".git", "__pycache__", "certs", "tests-get-sms-free-api",
               "logs", ".gitignore", ".gitattributes", "unpack.sh", "clean.sh"}
+
+
+def change_version(base_path: Path):
+    """
+    Updates .env files with the new versions.
+    :param base_path: Path to the root directory containing .env files.
+    """
+    env_files = [
+        base_path / "frontend/src/.env",
+        base_path / "backend/api/.env"
+    ]
+
+    for env_file in env_files:
+        if env_file.exists():
+            lines = []
+            with env_file.open("r") as file:
+                for line in file:
+                    if line.startswith("APP_VERSION="):
+                        lines.append(f"APP_VERSION={APP_VERSION}\n")
+                    else:
+                        lines.append(line)
+
+            with env_file.open("w") as file:
+                file.writelines(lines)
+            print(f"Updated versions in {env_file}")
+        else:
+            print(f"{env_file} does not exist, creating a new one.")
+            with env_file.open("w") as file:
+                file.write(f"APP_VERSION={APP_VERSION}\n")
 
 
 def should_exclude(path: Path):
@@ -31,6 +61,9 @@ def create_clean_archive(source_dir, output_dir, archive_name):
     """
     temp_dir = output_dir / "temp_archive"
     archive_root_dir = temp_dir / archive_name  # The root folder in the archive
+
+    # Step 0: Update .env files with the correct versions
+    change_version(Path(source_dir))
 
     # Step 1: Create a temporary directory
     if temp_dir.exists():

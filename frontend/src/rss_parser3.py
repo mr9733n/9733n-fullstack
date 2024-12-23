@@ -4,9 +4,8 @@ from pathlib import Path
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-import re
 from dotenv import load_dotenv
-from flask import render_template, session
+from flask import session
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
@@ -41,15 +40,6 @@ def get_rss_feed(url):
         parsed_feed.append(parsed_entry)
 
     return parsed_feed
-
-def remove_adv_words(article_text):
-    # Определите регулярное выражение для поиска слов, начинающихся с "adv_"
-    adv_pattern = r'\b(adv_|m_|incontent_)\w+\b'
-    
-    # Используйте re.sub для замены найденных слов на пустую строку
-    cleaned_text = re.sub(adv_pattern, '', article_text, flags=re.IGNORECASE)
-    
-    return cleaned_text
 
 def fetch_article_content(article_url):
     try:

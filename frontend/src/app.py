@@ -4,22 +4,20 @@ import string
 import time
 from pathlib import Path
 
-from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, request, session
-import requests
-import asyncio
+from flask import Flask, jsonify, render_template, request
 from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
-from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL, fetch_article_content, get_rss_url
+from rss_parser3 import get_rss_feed, RSS_FEED_URL, fetch_article_content, get_rss_url
 
-__version__ = '0.1.4.1'
+
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
+__version__ = os.getenv("APP_VERSION", "0.1.4.x")
 current_rss_url = RSS_FEED_URL
 
 app = Flask(__name__)
@@ -112,7 +110,7 @@ async def random_japanese_names():
     else:
         return render_template('random_japanese_names.html', names=[], version=__version__)
 
-@app.route('/generate-password', methods=['GET', 'POST'])
+@app.route('/generate_password', methods=['GET', 'POST'])
 def generate_password():
     """ Random Password Generator """
     data = request.form
