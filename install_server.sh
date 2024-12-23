@@ -29,10 +29,10 @@ cat $ENV_FILE
 echo "Building and running $APP_NAME with backend on port $BACKEND_PORT and frontend on port $FRONTEND_PORT..."
 
 # Generate certificates for backend
-mkdir -p backcend/api/certs backcend/api/logs || {
+mkdir -p backend/api/certs backend/api/logs || {
   echo ">>> Failed to create directories for backend"; exit 1;
 }
-chmod 700 backend/api/certs backcend/api/logs || {
+chmod 700 backend/api/certs backend/api/logs || {
   echo ">>> Failed to set permissions on backend directories"; exit 1;
 }
 
