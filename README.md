@@ -58,8 +58,12 @@
    ```plaintext
    127.0.0.1 9733n.lab
    ```
+- Check files inside docker image
 
-docker run -it --rm 9733n-fullstack-backend sh
-docker run -it --rm 9733n-fullstack-frontend sh
+    ```bash
+    docker run -it --rm 9733n-fullstack-backend sh
+    docker run -it --rm 9733n-fullstack-frontend sh
+    
+    ```
 
 

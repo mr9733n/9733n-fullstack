@@ -43,13 +43,15 @@ function toggleArticleText(blockId, link) {
                 articleText.innerText = 'Failed to fetch article.';
             } else {
                 articleText.innerHTML = `
-                    <p>${data.article_text}</p>
+                <div class="article-image">
                     ${data.images
                         .map(
                             img =>
-                                `<img src="${img}" alt="" onclick="openImageModal('${img}', 'Full-size Image')" style="cursor:pointer;"/>`
+                                `<img src="${img}" alt="" onclick="openImageModal('${img}', 'Full-size Image')" style="cursor:pointer; "/>`
                         )
-                        .join('')}
+                        .join('')}</div>
+                    <div class="article-text">${data.article_text}</dev>
+
                 `;
             }
 

@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <script src="{{ url_for('static', filename='main.js') }}"></script>   
+    <link rel="stylesheet" type="text/css" href="../static/pacman.css">
+    <script src="{{ url_for('static', filename='cat.js') }}"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+
 </head>
 <body>
     <div class="menu">
@@ -15,12 +18,20 @@
                     <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
                 {% endif %}
             {% endfor %}
-            <span id="theme-toggle" class="dark-mode"></span>
-            <span id="version">Version: {{ version }}</span>
+        <span id="theme-toggle" class="dark-mode"></span>
+        <span id="disable-animations" class="disable-animations"></span>
+        <span id="version">Version: {{ version }}</span>
         </div>
     </div>
+
+    <div class="ripple-background">
+
     <div class="container">
         <h1>Randomazers!</h1>
         <p>This is the home page.</p>
+            <div class="cat">
+                <img src="../static/cat.webp" alt="Cat">
+             </div>
+        </div>
 </div></body>
 </html>

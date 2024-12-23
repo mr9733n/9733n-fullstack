@@ -1,16 +1,27 @@
+import os
+from pathlib import Path
+
 import feedparser
-import time
-from flask import Flask, jsonify, render_template, request
 import requests
 from bs4 import BeautifulSoup
 import re
+from dotenv import load_dotenv
+from flask import render_template, session
+
+env_path = Path(__file__).resolve().parent / ".env"
+load_dotenv(env_path)
 
 # Список полей, которые вы хотите извлечь из каждой записи
 fields_to_extract = [
     "id", "link", "published", "summary", "tags", "title", "description"
 ]
 
-RSS_FEED_URL = "https://www.newsru.co.il/il/www/news/hot"
+RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
+
+def get_rss_url(url=None):
+    if url:
+        session['rss_url'] = url
+    return session.get('rss_url', RSS_FEED_URL)
 
 # Получите данные из ленты RSS
 def get_rss_feed(url):

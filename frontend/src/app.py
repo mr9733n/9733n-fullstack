@@ -6,19 +6,21 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, session
 import requests
 import asyncio
 from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
-from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL, fetch_article_content
+from rss_parser3 import get_rss_feed, remove_adv_words, RSS_FEED_URL, fetch_article_content, get_rss_url
 
 __version__ = '0.1.4.1'
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
+
+current_rss_url = RSS_FEED_URL
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default_secret_key') # Use an environment variable or fallback
@@ -32,7 +34,7 @@ routes_info = {
     'random_japanese_names': {'title': 'Random Japanese Name','description': 'Random Japanese Name', 'show_in_menu': True},
     'generate_names_api': {'title': 'Random Japanese Name API','description': 'Usage:\n GET http://localhost:5000/api/generate_names?num_names=5&sex=male&save_to_file=true', 'show_in_menu': False},
     'generate_password': {'title': 'Password Generator', 'description': 'Password Generator', 'show_in_menu': True},
-    'rss_parser': {'title': 'RSS Parser', 'description': 'Default url:\n https://www.newsru.co.il/il/www/news/hot', 'show_in_menu': True},
+    'rss_parser': {'title': 'RSS Parser', 'description': 'Default url:\n http://localhost/rss', 'show_in_menu': True},
     # '  '
     # Add new routes here...
 }
@@ -67,7 +69,6 @@ def index():
     """ Home page showing different functionalities """
 
     return render_template('index.html', version=__version__)
-
 
 @app.route('/random_heads_tails', methods=['GET', 'POST'])
 def random_heads_tails():
@@ -175,40 +176,27 @@ def generate_password():
 
 @app.route('/rss_feed', methods=['GET', 'POST'])
 def rss_parser():
-    data = request.form
-
+    global current_rss_url
     if request.method == 'POST':
-        current_rss_url = data.get('rss_url', '')
-        print(f"CHANGED:{current_rss_url}")
-        current_rss_url = get_rss_url(current_rss_url)  # Update the URL
-        if current_rss_url:
-            return render_template('rss_parser.html',  rss_url=current_rss_url, version=__version__)
+        new_rss_url = request.form.get('rss_url', '')
+        if not new_rss_url:
+            new_rss_url = get_rss_url()
+        print(f"CHANGED:{new_rss_url}")
+        if new_rss_url:
+            current_rss_url = new_rss_url  # Update the global variable
+            return render_template('rss_parser.html', rss_url=current_rss_url, version=__version__)
         else:
-            # Handle the case where the current RSS URL is None
-            # Redirect or display an error message
             return render_template('error.html', error="Invalid RSS URL")
     else:
-        current_rss_url = get_rss_url()  # Get the current URL
-        print(f"ORIGINAL:{current_rss_url}")
-        return render_template('rss_parser.html',  rss_url=current_rss_url, version=__version__)
-
-def get_rss_url(url=None):
-    # This function returns the current RSS feed URL
-    print(f"INPUTurl:{url}")
-    current_rss_url = RSS_FEED_URL
-    print(f"ORIGINALget_rss_url:{current_rss_url}")
-    if url:  # Check if a new URL is provided
-        current_rss_url = url
-        print(f"CHANGEDget_rss_url:{current_rss_url}")
-    return current_rss_url
+        print(f"ORIGINAL get_rss_url:{current_rss_url}")
+        return render_template('rss_parser.html', rss_url=current_rss_url, version=__version__)
 
 @app.route('/get_feeds', methods=['POST'])
 def get_feeds():
     last_feeds = {}
-    rss_url = get_rss_url()
-    print("RSS URL:", rss_url)
+    print("RSS URL:", current_rss_url)
+    feeds = get_rss_feed(current_rss_url)
     combined_feed = []
-    feeds = get_rss_feed(rss_url)
     combined_feed.extend(feeds)
 
     if combined_feed != last_feeds.get("combined_feed"):
@@ -233,7 +221,6 @@ def get_article_details():
 
     article_details = fetch_article_content(article_url)
     return jsonify(article_details)
-
 
 
 if __name__ == '__main__':
