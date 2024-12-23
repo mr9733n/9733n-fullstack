@@ -1,16 +1,19 @@
 import os
 import secrets
 import string
+import sys
 import time
 from pathlib import Path
-
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+if project_root not in sys.path:
+    sys.path.append(project_root)
 from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, request
 from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
-from rss_parser3 import get_rss_feed, RSS_FEED_URL, fetch_article_content, get_rss_url
+from rss_parser3 import get_rss_feed, fetch_article_content, get_rss_url
 
 
 
@@ -18,7 +21,7 @@ env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
 __version__ = os.getenv("APP_VERSION", "0.1.4.x")
-current_rss_url = RSS_FEED_URL
+RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default_secret_key') # Use an environment variable or fallback
@@ -174,7 +177,7 @@ def generate_password():
 
 @app.route('/rss_feed', methods=['GET', 'POST'])
 def rss_parser():
-    global current_rss_url
+    current_rss_url = RSS_FEED_URL
     if request.method == 'POST':
         new_rss_url = request.form.get('rss_url', '')
         if not new_rss_url:
@@ -192,8 +195,8 @@ def rss_parser():
 @app.route('/get_feeds', methods=['POST'])
 def get_feeds():
     last_feeds = {}
-    print("RSS URL:", current_rss_url)
-    feeds = get_rss_feed(current_rss_url)
+    print("RSS URL:", RSS_FEED_URL)
+    feeds = get_rss_feed(RSS_FEED_URL)
     combined_feed = []
     combined_feed.extend(feeds)
 

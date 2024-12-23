@@ -57,15 +57,15 @@
                 </div>
             </form>
             <div>
-                <h2>Results:</h2>
-                <div id="results-container" class="results-container">
-                    {% for name in names %}
+               {% for name in names %}
+                    <h2>Results:</h2>
+                    <div id="results-container" class="results-container">
                         <div class="result">
                             <span data-result="{{ name }}">{{ name }}</span>
                             <button class="copy-button initial">Copy</button>
                         </div>
-                    {% endfor %}
-                </div>
+                    </div>
+               {% endfor %}
             </div>
     <script src="{{ url_for('static', filename='script_copy.js') }}"></script>
     </div>

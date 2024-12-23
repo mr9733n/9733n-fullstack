@@ -22,6 +22,8 @@ ENV_FILE="frontend/src/.env"
 echo "API_HOST=http://${BACKEND_IP}:${BACKEND_PORT}" > $ENV_FILE
 echo "GENERATE_NAME_ROUTE=/rna/generate/names" >> $ENV_FILE
 echo "FLASK_SECRET_KEY=$(openssl rand -hex 16)" >> $ENV_FILE
+echo "APP_VERSION=0.1.4.2" >> $ENV_FILE
+echo "RSS_FEED_URL=https://www.newsru.co.il/il/www/news/hot" >> $ENV_FILE
 
 echo ">>> .env file updated at $ENV_FILE:"
 cat $ENV_FILE

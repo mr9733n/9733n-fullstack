@@ -9,13 +9,13 @@ from flask import session
 
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
+RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
 
 # Список полей, которые вы хотите извлечь из каждой записи
 fields_to_extract = [
     "id", "link", "published", "summary", "tags", "title", "description"
 ]
 
-RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
 
 def get_rss_url(url=None):
     if url:
