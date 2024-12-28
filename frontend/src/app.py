@@ -14,7 +14,7 @@ from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
 from generate_passwords import decorate_password, generate_passphrase, generate_passwords, generate_pronounceable_password, word_list
 from rss_parser3 import get_rss_feed, fetch_article_content, get_rss_url
-
+from onlinesim_api_interface import OnlineSimAPIInterface
 
 
 env_path = Path(__file__).resolve().parent / ".env"
@@ -222,6 +222,50 @@ def get_article_details():
 
     article_details = fetch_article_content(article_url)
     return jsonify(article_details)
+
+@app.route('/onlinesim', methods=['GET'])
+async def onlinesim():
+    """OnlineSIM API Interface Example"""
+    api = OnlineSimAPIInterface()
+    countries = await api.fetch_countries()
+    return render_template('onlinesim.html', countries=countries)
+
+@app.route('/api/numbers/countries', methods=['GET'])
+async def get_countries():
+    api = OnlineSimAPIInterface()
+    countries = await api.fetch_countries()
+    # Ensure the response wraps the countries dictionary
+    return jsonify({"countries": countries})
+
+
+@app.route('/api/numbers/<country>', methods=['GET'])
+async def get_numbers(country):
+    api = OnlineSimAPIInterface()
+    numbers = await api.fetch_numbers(country)
+    return jsonify(numbers)
+
+@app.route('/api/sms/<country>/<number>', methods=['GET'])
+async def get_sms(country, number):
+    if not country or not number:
+        return jsonify({"error": "Country and number are required"}), 400
+    api = OnlineSimAPIInterface()
+    sms = await api.fetch_sms(country, number)
+    if not sms:
+        return jsonify({"error": "No SMS found"}), 404
+    return jsonify({"sms": sms})
+
+@app.route('/api/update', methods=['GET'])
+async def update_cache():
+    """
+    API route to update/reset the cache.
+    """
+    try:
+        api = OnlineSimAPIInterface()
+        result = await api.update_cache()
+        return jsonify(result), 200
+    except Exception as e:
+        app.logger.error(f"Error in update cache route: {e}")
+        return jsonify({"status": "error", "message": "Failed to update cache."}), 500
 
 
 if __name__ == '__main__':

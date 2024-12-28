@@ -49,7 +49,7 @@ body {
     height: 100%;
     background: radial-gradient(circle, rgba(255,0,0,0.1), rgba(255,165,0,0.1), rgba(255,255,0,0.1), rgba(0,128,0,0.1), rgba(0,0,255,0.1), rgba(75,0,130,0.1), rgba(238,130,238,0.1));
     background-size: 200% 200%;
-    animation: ripple-animation 60s ease-in-out infinite;
+    animation: ripple-animation 30s ease-in-out infinite;
 }
 
 @keyframes ripple-animation {
