@@ -8,7 +8,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 if project_root not in sys.path:
     sys.path.append(project_root)
 from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, session
 from random_heads_tails import coin_flip
 from random_top_analyze import top_analyze, config
 from japanese_name_generator import JapaneseNameGenerator
@@ -25,11 +25,12 @@ RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default_secret_key') # Use an environment variable or fallback
-
+app.secret_key = 't3okxnV5GjmgvTAtWwb1S42i5dDh99by'
 
 routes_info = {
     'index': {'title': 'Home','description': 'Home Page', 'show_in_menu': True},
     'about': {'title': 'About','description': 'About this application', 'show_in_menu': True},
+    'onlinesim': {'title': 'OnlineSIM','description': 'OnlineSIM API Interface', 'show_in_menu': True},
     'random_heads_tails': {'title': 'Random Heads Tails','description': 'Coin Flip', 'show_in_menu': True},
     'random_top_analyze': {'title': 'Random Top Analyze','description': 'Random Top Analyze', 'show_in_menu': True},
     'random_japanese_names': {'title': 'Random Japanese Name','description': 'Random Japanese Name', 'show_in_menu': True},
@@ -177,26 +178,32 @@ def generate_password():
 
 @app.route('/rss_feed', methods=['GET', 'POST'])
 def rss_parser():
-    current_rss_url = RSS_FEED_URL
+    if 'rss_url' not in session:
+        session['rss_url'] = RSS_FEED_URL  # Устанавливаем начальное значение
+
     if request.method == 'POST':
         new_rss_url = request.form.get('rss_url', '')
         if not new_rss_url:
-            new_rss_url = get_rss_url()
-        print(f"CHANGED:{new_rss_url}")
+            new_rss_url = get_rss_url()  # Получить URL из внешнего источника
         if new_rss_url:
-            current_rss_url = new_rss_url  # Update the global variable
-            return render_template('rss_parser.html', rss_url=current_rss_url, version=__version__)
+            session['rss_url'] = new_rss_url  # Обновить значение в сессии
+            print(f"CHANGED: {new_rss_url}")
+            return render_template('rss_parser.html', rss_url=session['rss_url'], version=__version__)
         else:
             return render_template('error.html', error="Invalid RSS URL")
     else:
-        print(f"ORIGINAL get_rss_url:{current_rss_url}")
-        return render_template('rss_parser.html', rss_url=current_rss_url, version=__version__)
+        print(f"CURRENT RSS URL: {session['rss_url']}")
+        return render_template('rss_parser.html', rss_url=session['rss_url'], version=__version__)
 
 @app.route('/get_feeds', methods=['POST'])
 def get_feeds():
     last_feeds = {}
-    print("RSS URL:", RSS_FEED_URL)
-    feeds = get_rss_feed(RSS_FEED_URL)
+    if 'rss_url' not in session:
+        return jsonify({"error": "RSS URL not set."}), 400
+
+    rss_url = session['rss_url']
+    print("RSS URL:", rss_url)
+    feeds = get_rss_feed(rss_url)
     combined_feed = []
     combined_feed.extend(feeds)
 
@@ -228,7 +235,7 @@ async def onlinesim():
     """OnlineSIM API Interface Example"""
     api = OnlineSimAPIInterface()
     countries = await api.fetch_countries()
-    return render_template('onlinesim.html', countries=countries)
+    return render_template('onlinesim.html', countries=countries, version=__version__)
 
 @app.route('/api/numbers/countries', methods=['GET'])
 async def get_countries():

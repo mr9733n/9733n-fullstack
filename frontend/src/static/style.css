@@ -500,6 +500,11 @@ select:focus {
 
 .article-text {
 	margin: auto;
+	min-height: 150px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .article-image {

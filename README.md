@@ -65,5 +65,12 @@
     docker run -it --rm 9733n-fullstack-frontend sh
     
     ```
-
-
+    ```bash
+    python3 -m venv myenv
+    source myenv/bin/activate
+    pip install pyinstaller
+    pip install psutil
+    pip install pyftpdlib
+    pyinstaller --version
+    deactivate
+    ```

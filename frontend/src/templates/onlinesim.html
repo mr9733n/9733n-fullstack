@@ -11,8 +11,13 @@
 <body>
     <div class="menu">
         <div class="menu-inner">
-            <a href="/">Home</a> | <a href="/about">About</a>
-            <span id="version">Version: {{ version }}</span>
+                {% for route in routes %}
+                {% if route['show_in_menu'] %}
+                    <a href="{{ url_for(route['endpoint']) }}">{{ route['title'] }}</a>&nbsp;|&nbsp;
+                {% endif %}
+            {% endfor %}
+        <span id="theme-toggle" class="dark-mode"></span>
+        <span id="version">Version: {{ version }}</span>
         </div>
     </div>
     <div class="container">

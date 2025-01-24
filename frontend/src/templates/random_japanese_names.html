@@ -56,17 +56,20 @@
                     <input type="submit" value="Generate Names">
                 </div>
             </form>
+            {% if names and names|length > 0 %}
             <div>
-               {% for name in names %}
-                    <h2>Results:</h2>
-                    <div id="results-container" class="results-container">
+
+                <h2>Results:</h2>
+                <div id="results-container" class="results-container">
+                {% for name in names %}
                         <div class="result">
                             <span data-result="{{ name }}">{{ name }}</span>
                             <button class="copy-button initial">Copy</button>
                         </div>
-                    </div>
-               {% endfor %}
+                {% endfor %}
+                </div>
             </div>
+           {% endif %}
     <script src="{{ url_for('static', filename='script_copy.js') }}"></script>
     </div>
 </body>

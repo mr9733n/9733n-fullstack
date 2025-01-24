@@ -3,3 +3,4 @@
 *.txt
 .idea/*
 api/logs/*
+backend/api/logs/*
