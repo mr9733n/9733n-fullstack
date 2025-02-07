@@ -1,16 +1,8 @@
-FROM python:3.12.6-alpine
+FROM python:3-slim AS build-env
 
 ENV PYTHONPATH=/backend
 
 WORKDIR /backend
-
-RUN apk add --no-cache \
-    gcc \
-    python3-dev \
-    musl-dev \
-    linux-headers \
-    libffi-dev \
-    build-base
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt

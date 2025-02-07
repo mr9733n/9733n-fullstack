@@ -25,7 +25,6 @@ RSS_FEED_URL = os.getenv("RSS_FEED_URL", "http://localhost")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default_secret_key') # Use an environment variable or fallback
-app.secret_key = 't3okxnV5GjmgvTAtWwb1S42i5dDh99by'
 
 routes_info = {
     'index': {'title': 'Home','description': 'Home Page', 'show_in_menu': True},
@@ -243,7 +242,6 @@ async def get_countries():
     countries = await api.fetch_countries()
     # Ensure the response wraps the countries dictionary
     return jsonify({"countries": countries})
-
 
 @app.route('/api/numbers/<country>', methods=['GET'])
 async def get_numbers(country):
