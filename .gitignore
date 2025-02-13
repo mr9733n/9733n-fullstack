@@ -4,3 +4,5 @@
 .idea/*
 api/logs/*
 backend/api/logs/*
+frontend/src/.env
+backend/api/.env
